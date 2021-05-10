@@ -123,12 +123,24 @@ For more information, see ```assignment_self_assigned/README.md```
 ## License
 Distributed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). See ```LICENSE``` for more information.
 
-<!-- CONTACT -->
-## Contact
-
-By all means write me, Johan Horsmans, for any questions regarding the repository/assignments. You can contact me on my e-mail horsmans1004@gmail.com or on [Facebook](https://www.facebook.com/johan.horsmans/).
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Ross Dean McLachlan](https://pure.au.dk/portal/en/persons/ross-deans-kristensenmclachlan(29ad140e-0785-4e07-bdc1-8af12f15856c).html) - Our teacher for the Visual Analytics course
 * [Emil Jessen](https://github.com/emiltj) - My partner for the self-assigned project with whom I have also collaborated in creating this README-file structure.
+
+<!-- CONTACT -->
+## Contact
+
+By all means write me, Johan Horsmans, for any questions regarding the repository/assignments. You can contact me on my e-mail horsmans1004@gmail.com or the following platforms:
+
+[<img align="left" alt="JohanHorsmans | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+[<img align="left" alt="JohanHorsmans | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/facebook.svg" />][facebook]
+
+
+
+<br />
+
+</details>
+
+[twitter]: https://twitter.com/JohanHorsmans
+[facebook]: https://www.facebook.com/johan.horsmans/
