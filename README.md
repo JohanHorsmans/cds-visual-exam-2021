@@ -45,10 +45,9 @@
 <!-- PROJECT INFO -->
 ## Project info
 
-This project contains the exam portofolio coding related to the Spring 2021 module _Visual Analytics_ as part of the bachelor's tilvalg in [_Cultural Data Science_](https://bachelor.au.dk/en/supplementary-subject/culturaldatascience/) at Aarhus University. 
-This README contains all the necessary information needed to get an overview of the repository, as well the installation steps required for rerunning the assignments. 
+This repository houses the portfolio exam of Johan Kresten Horsmans for the course _Visual Analytics_ as part of the bachelor's elective, [_Cultural Data Science_](https://bachelor.au.dk/en/supplementary-subject/culturaldatascience/) at Aarhus University. The repository consists of 4 projects: 3 class assignment and 1 self-assigned project. The following README is a guide for how to run the code and a thorough explanation of how the repository is structured.
 
-Assignments chosen for this portfolio:
+The assignments included in this portfolio are the following:
 * Assignment 2 - Image search 
 * Assignment 4 - Logistic Regression and Neural Network benchmark mnist classification
 * Assignment 5 - CNN classification of impressionist paintings
