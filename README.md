@@ -27,7 +27,7 @@
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
     <li><a href="#data">Data</a></li>
     <li>
-      <a href="#assignments">Portfolio Assignment</a>
+      <a href="#portfolio-assignments">Portfolio assignment</a>
       <ul>
         <li><a href="#assignment-2">Assignment 2</a></li>
         <li><a href="#assignment-4">Assignment 4</a></li>
@@ -72,8 +72,8 @@ cd cds-visual
 bash ./create_vis_venv_win.sh
 ```
 
-<!-- REPOSITORY STRUCTURE -->
-## Repository structure
+<!-- REPOSITORY STRUCTURE AND CONTENTS -->
+## Repository structure and contents
 
 This repository has the following directory structure:
 
@@ -88,8 +88,14 @@ Furthermore it contains the files:
 - ```requirements.txt``` -> A list of packages along with the versions that work for the scripts
 - ```README.md``` -> This very README file
 
-<!-- ASSIGNMENTS -->
-## Assignments
+<!-- DATA -->
+## Data
+flowers
+cf-test
+mnist
+
+<!-- PORTFOLIO ASSIGNMENTS -->
+## Portfolio assignments
 
 ### Assignment 2 - Image search
 #### Content of assignment
@@ -106,15 +112,9 @@ For more information, see ```assignment_4/README.md```
 
 For more information, see ```assignment_5/README.md```
 
-### Assignment self-assigned
+### Self-assigned assignment
 
 For more information, see ```assignment_self_assigned/README.md```
-
-<!-- DATA -->
-## Data
-flowers
-cf-test
-mnist
 
 <!-- LICENSE -->
 ## License
