@@ -91,9 +91,13 @@ Furthermore, it holds the following files:
 
 <!-- DATA -->
 ## Data
-* flowers
-* cf-test
-* mnist
+
+The Data-folder contains the following files:
+
+|File|Description|
+flowers | flowers
+cf-test | test
+mnist | test
 
 <!-- PORTFOLIO ASSIGNMENTS -->
 ## Portfolio assignments
