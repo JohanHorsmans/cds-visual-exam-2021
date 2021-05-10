@@ -6,7 +6,6 @@
   </a>
   
   <h3 align="center">Cultural Data Science: Visual Analytics Exam 2021</h3> 
-  <br />
     <h3 align="center">test</h3> 
 
 
