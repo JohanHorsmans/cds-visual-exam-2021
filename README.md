@@ -45,7 +45,7 @@
 <!-- PROJECT INFO -->
 ## Project info
 
-This repository houses the portfolio exam of Johan Kresten Horsmans for the course [_Visual Analytics_](https://kursuskatalog.au.dk/en/course/101992/Visual-Analytics) as part of the bachelor's elective, [_Cultural Data Science_](https://bachelor.au.dk/en/supplementary-subject/culturaldatascience/) at Aarhus University. The repository consists of 4 projects: 3 class assignment and 1 self-assigned project. The following README is a guide for how to run the code and a thorough explanation of how the repository is structured.
+This repository houses the exam of _Johan Kresten Horsmans (AU ID: 618771)_ for the course [_Visual Analytics_](https://kursuskatalog.au.dk/en/course/101992/Visual-Analytics) as part of the bachelor's elective, [_Cultural Data Science_](https://bachelor.au.dk/en/supplementary-subject/culturaldatascience/) at Aarhus University. The repository consists of 4 projects: 3 class assignment and 1 self-assigned project. The following README is a guide for how to run the code and a thorough explanation of how the repository is structured.
 
 The assignments included in this portfolio are the following:
 * Assignment 2 - Image search 
