@@ -56,7 +56,7 @@ The assignments included in this portfolio are the following:
 <!-- HOW TO RUN -->
 ## How to run
 
-To run the assignments, you need to go through the following steps in your bash-terminal to configure a virtual environment with the needed prerequisites for all assignments.
+To run the assignments, you need to go through the following steps in your bash-terminal to configure a virtual environment with the needed prerequisites for all assignments:
 
 __MAC/LINUX/WORKER02__
 ```bash
