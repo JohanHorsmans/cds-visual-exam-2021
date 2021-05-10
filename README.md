@@ -22,16 +22,16 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project">About the project</a></li>
-    <li><a href="#getting-started">Getting started</a></li>
-    <li><a href="#repository-structure">Repository structure</a></li>
+    <li><a href="#about-the-project">Project Info</a></li>
+    <li><a href="#getting-started">How to run</a></li>
+    <li><a href="#repository-structure-and-contents">Repository structure & contents</a></li>
     <li>
-      <a href="#assignments">Assignments</a>
+      <a href="#assignments">Portfolio Assignment</a>
       <ul>
         <li><a href="#assignment-2">Assignment 2</a></li>
         <li><a href="#assignment-4">Assignment 4</a></li>
         <li><a href="#assignment-5">Assignment 5</a></li>
-        <li><a href="#assignment-self-assigned">Assignment self-assigned</a></li>
+        <li><a href="#self-assigned-assignment">elf-assigned assignment</a></li>
       </ul>
     </li>
     <li><a href="#data">Data</a></li>
