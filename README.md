@@ -25,6 +25,7 @@
     <li><a href="#about-the-project">Project Info</a></li>
     <li><a href="#getting-started">How to run</a></li>
     <li><a href="#repository-structure-and-contents">Repository structure & contents</a></li>
+    <li><a href="#data">Data</a></li>
     <li>
       <a href="#assignments">Portfolio Assignment</a>
       <ul>
@@ -34,7 +35,6 @@
         <li><a href="#self-assigned-assignment">elf-assigned assignment</a></li>
       </ul>
     </li>
-    <li><a href="#data">Data</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
