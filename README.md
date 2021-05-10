@@ -6,7 +6,7 @@
   </a>
   
   <h1 align="center">Cultural Data Science 2021</h1> 
-  <h4 align="center">Visual Analytics Exam</h4> 
+  <h3 align="center">Visual Analytics Exam</h3> 
 
 
   <p align="center">
