@@ -32,7 +32,7 @@
         <li><a href="#assignment-2">Assignment 2</a></li>
         <li><a href="#assignment-4">Assignment 4</a></li>
         <li><a href="#assignment-5">Assignment 5</a></li>
-        <li><a href="#self-assigned-assignment">elf-assigned assignment</a></li>
+        <li><a href="#self-assigned-assignment">self-assigned assignment</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -90,9 +90,9 @@ Furthermore it contains the files:
 
 <!-- DATA -->
 ## Data
-flowers
-cf-test
-mnist
+* flowers
+* cf-test
+* mnist
 
 <!-- PORTFOLIO ASSIGNMENTS -->
 ## Portfolio assignments
