@@ -104,7 +104,6 @@ mnist | test
 ## Portfolio assignments
 
 ### Assignment 3 - Edge detection
-#### Content of assignment
 
 For more information, see ```assignment_3/README.md```
 
