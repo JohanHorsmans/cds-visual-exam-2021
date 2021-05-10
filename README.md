@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
-    <img src="README_images/computer vision2.png" alt="Logo" width="158" height="146">
+    <img src="README_images/computer vision.png" alt="Logo" width="158" height="146">
   </a>
   
   <h1 align="center">Cultural Data Science 2021</h1> 
