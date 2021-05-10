@@ -103,12 +103,10 @@ mnist | test
 <!-- PORTFOLIO ASSIGNMENTS -->
 ## Portfolio assignments
 
-### Assignment 2 - Image search
+### Assignment 3 - Edge detection
 #### Content of assignment
-This assignment contains the following:
 
-
-For more information, see ```assignment_2/README.md```
+For more information, see ```assignment_3/README.md```
 
 ### Assignment 4 - Logistic Regression and Neural Network benchmark mnist classification
 
@@ -129,11 +127,9 @@ Distributed under the [Apache License 2.0](https://www.apache.org/licenses/LICEN
 <!-- CONTACT -->
 ## Contact
 
-Feel free to write me, Johan Horsmans for any questions (also regarding the reviews). 
-You can do so on horsmans1004@gmail.com or on [Facebook](https://www.facebook.com/johan.horsmans/).
+By all means write me, Johan Horsmans, for any questions regarding the repository/assignments. You can contact me on my e-mail horsmans1004@gmail.com or on [Facebook](https://www.facebook.com/johan.horsmans/).
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [Python](https://www.rstudio.com/) - Software used for conducting the analysis
-* [Ross Dean McLachlan](https://github.com/CDS-AU-DK/) - Our competent instructor for the module on Visual Analytics
-* [Emil Jessen](https://github.com/emiltj) - My partner for the self-assigned project and with whom I have collaborated in creating this README-file structure.
+* [Ross Dean McLachlan](https://pure.au.dk/portal/en/persons/ross-deans-kristensenmclachlan(29ad140e-0785-4e07-bdc1-8af12f15856c).html) - Our teacher for the Visual Analytics course
+* [Emil Jessen](https://github.com/emiltj) - My partner for the self-assigned project with whom I have also collaborated in creating this README-file structure.
