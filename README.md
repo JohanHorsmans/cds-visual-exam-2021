@@ -30,8 +30,8 @@
       <a href="#portfolio-assignments">Portfolio assignment</a>
       <ul>
         <li><a href="#assignment-3---edge-detection">Assignment 3 - Edge detection</a></li>
-        <li><a href="#assignment-4">Assignment 4</a></li>
-        <li><a href="#assignment-5">Assignment 5</a></li>
+        <li><a href="#assignment-4---logistic-regression-and-neural-network-benchmark-mnist-classification">Assignment 4 - Logistic Regression and Neural Network benchmark mnist classification</a></li>
+        <li><a href="#assignment-5---cnn-classification-of-impressionist-paintings">Assignment 5 - CNN classification of impressionist paintings</a></li>
         <li><a href="#self-assigned-assignment">self-assigned assignment</a></li>
       </ul>
     </li>
