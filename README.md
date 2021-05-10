@@ -22,8 +22,8 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#project-info">Project Info</a></li>
-    <li><a href="#getting-started">How to run</a></li>
+    <li><a href="#project-info">Project info</a></li>
+    <li><a href="#how-to-run">How to run</a></li>
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
     <li><a href="#data">Data</a></li>
     <li>
@@ -42,8 +42,8 @@
 </details>
 
 
-<!-- Project Info -->
-## Project Info
+<!-- PROJECT INFO -->
+## Project info
 
 This project contains the exam portofolio coding related to the Spring 2021 module _Visual Analytics_ as part of the bachelor's tilvalg in [_Cultural Data Science_](https://bachelor.au.dk/en/supplementary-subject/culturaldatascience/) at Aarhus University. 
 This README contains all the necessary information needed to get an overview of the repository, as well the installation steps required for rerunning the assignments. 
@@ -54,8 +54,8 @@ Assignments chosen for this portfolio:
 * Assignment 5 - CNN classification of impressionist paintings
 * Self-assigned - * *
 
-<!-- GETTING STARTED -->
-## Getting started
+<!-- HOW TO RUN -->
+## How to run
 
 For running my scripts I'd recommend following the below steps in your bash-terminal as a setup of the virtual environment needed for all of the individual assignments.
 
