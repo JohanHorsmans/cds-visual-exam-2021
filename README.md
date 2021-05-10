@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
-    <img src="README_images/computer vision.png" alt="Logo" width="225" height="80">
+    <img src="README_images/computer vision.png" alt="Logo" width="225" height="209">
   </a>
   
   <h3 align="center">CDS Visual Analytics Exam 2021</h3>
