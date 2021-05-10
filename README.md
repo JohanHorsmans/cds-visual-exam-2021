@@ -22,7 +22,7 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project">Project Info</a></li>
+    <li><a href="#project-info">Project Info</a></li>
     <li><a href="#getting-started">How to run</a></li>
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
     <li><a href="#data">Data</a></li>
@@ -42,7 +42,7 @@
 </details>
 
 
-<!-- ABOUT THE PROJECT -->
+<!-- Project Info -->
 ## About the project
 
 This project contains the exam portofolio coding related to the Spring 2021 module _Visual Analytics_ as part of the bachelor's tilvalg in [_Cultural Data Science_](https://bachelor.au.dk/en/supplementary-subject/culturaldatascience/) at Aarhus University. 
