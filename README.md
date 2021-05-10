@@ -130,4 +130,4 @@ You can do so on horsmans1004@gmail.com or on [Facebook](https://www.facebook.co
 ## Acknowledgements
 * [Python](https://www.rstudio.com/) - Software used for conducting the analysis
 * [Ross Dean McLachlan](https://github.com/CDS-AU-DK/) - Our competent instructor for the module on Visual Analytics
-* Emil Jessen - My partner for the final project and with whom I have collaborated in creating this README-file structure.
+* [Emil Jessen](https://github.com/emiltj) - My partner for the final project and with whom I have collaborated in creating this README-file structure.
