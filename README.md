@@ -10,7 +10,7 @@
   <p align="center">
     Johan Kresten Horsmans
     <br />
-    <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021.pdf"><strong>Read about the project »</strong></a>
+    <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021.pdf"><strong>Link to portfolio descriptions »</strong></a>
     <br />
   </p>
 </p>
