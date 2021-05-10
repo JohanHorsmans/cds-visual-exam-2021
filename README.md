@@ -103,15 +103,15 @@ mnist | test
 <!-- PORTFOLIO ASSIGNMENTS -->
 ## Portfolio assignments
 
-### Assignment 3 - _Edge detection_
+### Assignment 3 - Edge detection
 
 For more information, see ```assignment_3/README.md```
 
-### Assignment 4 - _Logistic Regression and Neural Network benchmark mnist classification_
+### Assignment 4 - Logistic Regression and Neural Network benchmark mnist classification
 
 For more information, see ```assignment_4/README.md```
 
-### Assignment 5 - _CNN classification of impressionist paintings_
+### Assignment 5 - CNN classification of impressionist paintings
 
 For more information, see ```assignment_5/README.md```
 
