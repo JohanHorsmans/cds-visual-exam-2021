@@ -92,7 +92,7 @@ Furthermore, it holds the following files:
 <!-- DATA -->
 ## Data
 
-The Data-folder contains the following files:
+The data-folder contains the following files:
 
 |File|Description|
 |:--------|:-----------|
