@@ -124,7 +124,7 @@ Distributed under the [Apache License 2.0](https://www.apache.org/licenses/LICEN
 ## Contact
 
 Feel free to write me, Johan Horsmans for any questions (also regarding the reviews). 
-You can do so on [Slack](https://app.slack.com/client/T01908QBS9X/D01A1LFRDE0) or on [Facebook](https://www.facebook.com/emil.t.jessen/).
+You can do so on horsmans1004@gmail.com or on [Facebook](https://www.facebook.com/johan.horsmans/).
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
