@@ -24,7 +24,7 @@
   <ol>
     <li><a href="#about-the-project">Project Info</a></li>
     <li><a href="#getting-started">How to run</a></li>
-    <li><a href="#repository-structure-&-contents">Repository structure & contents</a></li>
+    <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
     <li><a href="#data">Data</a></li>
     <li>
       <a href="#assignments">Portfolio Assignment</a>
