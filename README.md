@@ -76,14 +76,14 @@ bash ./create_vis_venv_win.sh
 
 This repository contains the following folders:
 
-| Folder | Description|
+|Folder|Description|
 |--------|:-----------|
 ```data/```| Folder containing the data used for the assignments
 ```assignment_.*/``` | Folder containing code for the four assignments
 ```utils``` | Folder containing utility functions written by our teacher, [Ross Deans Kristensen-McLachlan](https://pure.au.dk/portal/en/persons/ross-deans-kristensenmclachlan(29ad140e-0785-4e07-bdc1-8af12f15856c).html), which are employed in some of the assignments.
 
 Furthermore, it holds the following files:
-| File | Description|
+|File|Description|
 |--------|:-----------|
 ```./create_vis_venv.*.sh``` | A bash script that generates a new virtual environment with all the packages specified in the ```requirements.txt```-file.
 ```requirements.txt``` | A txt-file containing a list of the packages (and versions) that are needed for the virtual environment.
