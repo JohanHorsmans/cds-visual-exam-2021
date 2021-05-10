@@ -131,12 +131,10 @@ Distributed under the [Apache License 2.0](https://www.apache.org/licenses/LICEN
 <!-- CONTACT -->
 ## Contact
 
-By all means write me, Johan Horsmans, for any questions regarding the repository/assignments. You can contact me on my e-mail horsmans1004@gmail.com or the following platforms:
+By all means contact me, Johan Horsmans, for any questions regarding the repository/assignments. You can reach out to me on my e-mail horsmans1004@gmail.com or the following platforms:
 
 [<img align="left" alt="JohanHorsmans | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="JohanHorsmans | Facebook" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/facebook.svg" />][facebook]
-
-
 
 <br />
 
