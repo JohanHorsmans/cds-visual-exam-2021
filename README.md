@@ -74,18 +74,18 @@ bash ./create_vis_venv_win.sh
 <!-- REPOSITORY STRUCTURE AND CONTENTS -->
 ## Repository structure and contents
 
-This repository has the following directory structure:
+This repository contains the following folders:
 
 | Column | Description|
 |--------|:-----------|
-```data/```| Contains the data used in the assignments
-```assignment_.*/``` | Contains the 4 assignments
-```utils``` | Utility functions written by [Ross](https://pure.au.dk/portal/en/persons/ross-deans-kristensenmclachlan(29ad140e-0785-4e07-bdc1-8af12f15856c).html) which are utilised in some of the scripts
+```data/```| Folder containing the data used for the assignments
+```assignment_.*/``` | Folder containing code for the four assignments
+```utils``` | Folder containing utility functions written by our teacher, [Ross Deans Kristensen-McLachlan](https://pure.au.dk/portal/en/persons/ross-deans-kristensenmclachlan(29ad140e-0785-4e07-bdc1-8af12f15856c).html), which are employed in some of the assignments.
 
-Furthermore it contains the files:
-- ```./create_vis_venv.*.sh``` -> Bash scripts that automatically generates a new virtual environment, and install all the packages contained within ```requirements.txt```
-- ```requirements.txt``` -> A list of packages along with the versions that work for the scripts
-- ```README.md``` -> This very README file
+Furthermore, it holds the following files:
+- ```./create_vis_venv.*.sh``` -> A bash script that generates a new virtual environment with all the packages specified in the ```requirements.txt```-file.
+- ```requirements.txt``` -> A txt-file containing a list of the packages (and versions) that are needed for the virtual environment.
+- ```README.md``` -> The README file that you are currently reading.
 
 <!-- DATA -->
 ## Data
