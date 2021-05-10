@@ -5,8 +5,8 @@
     <img src="README_images/computer vision.png" alt="Logo" width="169" height="157">
   </a>
   
-  <h1 align="center">Cultural Data Science</h1> 
-  <h3 align="center">Visual Analytics Exam 2021</h3> 
+  <h1 align="center">Cultural Data Science 2021</h1> 
+  <h4 align="center">Visual Analytics Exam</h4> 
 
 
   <p align="center">
