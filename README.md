@@ -56,17 +56,17 @@ The assignments included in this portfolio are the following:
 <!-- HOW TO RUN -->
 ## How to run
 
-For running my scripts I'd recommend following the below steps in your bash-terminal as a setup of the virtual environment needed for all of the individual assignments.
+To run the assignments you need to go through the following steps in your bash-terminal to configure a virtual environment with the needed prerequisites for all assignments.
 
 __MAC/LINUX/WORKER02__
 ```bash
-git clone https://github.com/emiltj/cds-visual.git
+git clone https://github.com/JohanHorsmans/cds-visual-exam-2021.git
 cd cds-visual
 bash ./create_vis_venv.sh
 ```
 __WINDOWS:__
 ```bash
-git clone https://github.com/emiltj/cds-visual.git
+git clone https://github.com/JohanHorsmans/cds-visual-exam-2021.git
 cd cds-visual
 bash ./create_vis_venv_win.sh
 ```
