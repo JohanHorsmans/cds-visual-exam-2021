@@ -5,7 +5,10 @@
     <img src="README_images/computer vision.png" alt="Logo" width="169" height="157">
   </a>
   
-  <h3 align="center">Cultural Data Science: Visual Analytics Exam 2021</h3>
+  <h3 align="center">Cultural Data Science: Visual Analytics Exam 2021</h3> 
+  <br />
+    <h3 align="center">test</h3> 
+
 
   <p align="center">
     Johan Kresten Horsmans
