@@ -43,7 +43,7 @@
 
 
 <!-- Project Info -->
-## About the project
+## Project Info
 
 This project contains the exam portofolio coding related to the Spring 2021 module _Visual Analytics_ as part of the bachelor's tilvalg in [_Cultural Data Science_](https://bachelor.au.dk/en/supplementary-subject/culturaldatascience/) at Aarhus University. 
 This README contains all the necessary information needed to get an overview of the repository, as well the installation steps required for rerunning the assignments. 
