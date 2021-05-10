@@ -27,7 +27,7 @@
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
     <li><a href="#data">Data</a></li>
     <li>
-      <a href="#portfolio-assignments">Portfolio assignment</a>
+      <a href="#portfolio-assignments">Portfolio assignments</a>
       <ul>
         <li><a href="#assignment-3---edge-detection">Assignment 3 - Edge detection</a></li>
         <li><a href="#assignment-4---logistic-regression-and-neural-network-benchmark-mnist-classification">Assignment 4 - Logistic Regression and Neural Network benchmark mnist classification</a></li>
