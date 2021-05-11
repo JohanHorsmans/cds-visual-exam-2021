@@ -105,7 +105,7 @@ mnist | test
 
 ### Assignment 3 - Edge detection
 
-For more information, see ```assignment_3/README.md```
+For more information, see [```assignment_3/README.md```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/assignment_3)
 
 ### Assignment 4 - Logistic Regression and Neural Network benchmark mnist classification
 
