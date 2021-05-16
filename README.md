@@ -109,11 +109,11 @@ For more information, see [```assignment_3/README.md```](https://github.com/Joha
 
 ### Assignment 4 - Logistic Regression and Neural Network benchmark mnist classification
 
-For more information, see ```assignment_4/README.md```
+For more information, see [```assignment_4/README.md```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/assignment_4)
 
 ### Assignment 5 - CNN classification of impressionist paintings
 
-For more information, see ```assignment_5/README.md```
+For more information, see [```assignment_5/README.md```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/assignment_5)
 
 ### Self-assigned assignment
 
