@@ -117,7 +117,7 @@ For more information, see [```assignment_5/README.md```](https://github.com/Joha
 
 ### Self-assigned assignment
 
-For more information, see [```assignment_self_assigned/README.md```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/self_assigned)
+For more information, see [```self_assigned/README.md```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/self_assigned)
 
 <!-- LICENSE -->
 ## License
