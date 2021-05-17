@@ -30,6 +30,8 @@ cd mangled_data
 
 mkdir './monet'
 
+mkdir './fake_images'
+
 cd ../raw_data
 
 cp -a monet/. ../mangled_data/monet/
