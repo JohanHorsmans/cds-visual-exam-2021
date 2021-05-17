@@ -33,8 +33,6 @@ import cv2
 # Import pandas for creating dataframes:
 import pandas as pd
 
-
-
 # Specify function called "str2bool" that allows one to specify boolean "False"- and "True" operators from the command-line in a plethora of different ways:
 def str2bool(v):
     if isinstance(v, bool):
