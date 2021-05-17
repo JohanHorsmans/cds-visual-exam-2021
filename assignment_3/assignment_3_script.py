@@ -21,7 +21,7 @@ custom_oem_psm_config = r'--oem 2 --psm 4'
 
 #Define function argument defaults and how to specify them from the terminal:
 ap = argparse.ArgumentParser(description = "[DESCRIPTION]: A function designed to read text from image-files. The following parameters can be specified but you can also run the code with default parameters:")
-ap.add_argument("-i", "--image_path", default = os.path.join("..","data","img", "WHTT.jpg"), type = str, help = "string, path to input file. [DEFAULT]: \"..\", \"data\", \"weighted_edges_df.csv\"")
+ap.add_argument("-i", "--image_path", default = os.path.join("data","WHTT.jpg"), type = str, help = "string, path to input file. [DEFAULT]: os.path.join(\"data\", \"WHHT.jpg\")")
 ap.add_argument("-l", "--lower", default = 110, type = int, help = "integer, lower limit for thresholding (i.e. if pixel < 0 make it white). [DEFAULT]: 110")
 ap.add_argument("-u", "--upper", default = 255, type = int, help = "integer, lower limit for thresholding (i.e. if pixel > 0 make it white). [DEFAULT]: 255")
 
