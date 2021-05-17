@@ -12,6 +12,8 @@ cd assignment_5
 
 mkdir './data'
 
+cd data
+
 # For each link in list of links, download to current folder
 for f in https://drive.google.com/uc?id=1eg-rR8PgOxRjEDgUG82p1ZPQbd5bkJqX; do gdown $f; done
 
@@ -20,7 +22,15 @@ unzip impressionist_painters.zip
 ###### SELF ASSIGNED DATA ######
 
 # Go back to parent directory
-cd ../self_assigned/raw_data
+cd ../../self_assigned
+
+mkdir './mangled_data'
+
+cd mangled_data
+
+mkdir './monet'
+
+cd ../raw_data
 
 cp -a monet/. ../mangled_data/monet/
 
