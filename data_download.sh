@@ -10,7 +10,7 @@ pip install gdown
 # Go to new data folder
 cd assignment_5
 
-mkdir '/data'
+mkdir './data'
 
 # For each link in list of links, download to current folder
 for f in https://drive.google.com/uc?id=1eg-rR8PgOxRjEDgUG82p1ZPQbd5bkJqX; do gdown $f; done
