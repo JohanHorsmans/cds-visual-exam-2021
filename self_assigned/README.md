@@ -27,7 +27,6 @@ Creating and classifying fake art</h3>
     <li><a href="#how-to-run">How to run</a></li>
     <li><a href="#discussion-of-results">Discussion of results</a></li>
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
-    <li><a href="#data">Data</a></li>
   </ol>
 </details>
 
@@ -99,8 +98,6 @@ Furthermore, it also contains the following files:
 ```self-assigned-project.ipynb``` | The jupyter notebook for the assignment
 ```README.md``` | The README file that you are currently reading.
 
-<!-- DATA -->
-## Data
 
 <br />
 <p align="center">
