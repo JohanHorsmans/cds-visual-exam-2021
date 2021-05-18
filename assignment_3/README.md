@@ -24,7 +24,6 @@
     <li><a href="#how-to-run">How to run</a></li>
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
     <li><a href="#data">Data</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -87,3 +86,27 @@ python3 edge_detection.py
 ```
 Type: ```python3 edge_detection.py -h``` for a detailed guide on how to specify script-parameters. 
 
+<!-- REPOSITORY STRUCTURE AND CONTENTS -->
+## Repository structure and contents
+
+This repository contains the following folders:
+
+|Folder|Description|
+|:--------|:-----------|
+```data/``` | Folder containing data for assignment 3
+
+Furthermore, it holds the following files:
+|File|Description|
+|:--------|:-----------|
+```edge_detection.py``` | The python script for the assignment
+```README.md``` | The README file that you are currently reading.
+
+<!-- DATA -->
+## Data
+
+The data-folder contains the following files:
+
+|File|Description|
+|:--------|:-----------|
+WHTT.jpg | An image of a wall with the declaration of independence inscribed. Default image for the script.
+Pure_text.png | An image with text saying "Pure Text". Can be used to test the --CUSTOM argument in the function.
