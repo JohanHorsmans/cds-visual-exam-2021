@@ -44,7 +44,7 @@ For my self-assigned project, I have created a notebook with a pipeline consisti
 4. Preprocessing the images into a consistent format compatible with a CNN classifier.
 5. Building a CNN-classifier from scratch.
 6. Classifying testing data with the CNN-classifier.
-7. Fine-tuning a pretrained MobileNetV2 model.
+7. Fine-tuning a pretrained _MobileNetV2_ model.
 8. Using the fine-tuned model to classify testing data.
 
 <!-- HOW TO RUN -->
