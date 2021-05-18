@@ -97,20 +97,6 @@ Furthermore, it also contains the following files:
 ```self-assigned-project.ipynb``` | The jupyter notebook for the assignment
 ```README.md``` | The README file that you are currently reading.
 
-
-<p align="center">
-  <b>Some Links:</b><br>
-  <a href="#">Link 1</a> |
-  <a href="#">Link 2</a> |
-  <a href="#">Link 3</a>
-  <br><br>
-  <img src="http://s.4cdn.org/image/title/105.gif">
-</p>
-
-Normal text
-
-
-
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
