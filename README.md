@@ -127,6 +127,14 @@ For more information, see [```assignment_4/README.md```](https://github.com/Joha
 
 ### Assignment 5 - CNN classification of impressionist paintings
 
+Go through the following steps to run assignment 5:
+```bash
+cd {root directory (i.e. cds-visual-exam-2021}
+cd assignment_5
+python3 cnn-artists.py
+```
+Type: ```python3 cnn-artists.py -h``` for a detailed guide on how to specify script-parameters. 
+
 For more information, see [```assignment_5/README.md```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/assignment_5)
 
 ### Self-assigned assignment
