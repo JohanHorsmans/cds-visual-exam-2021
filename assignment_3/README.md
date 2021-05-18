@@ -29,7 +29,7 @@
 </details>
 
 <!-- OFFICIAL DESCRIPTION FROM INSTRUCTOR -->
-## Offical description from instructor:
+## Offical description from instructor
 
 ### Finding text using edge detection
 
