@@ -33,7 +33,7 @@ Creating and classifying fake art</h3>
 <!-- PROJECT DESCRIPTION -->
 ## Project description
 
-__Creating fake Monet-images with style transfer and classifying them with CNN's__
+__Creating fake Monet-images with style transfer and classifying them with CNN's:__
 
 For my self-assigned project, I have created a notebook with a pipeline consisting of the following steps:
 
