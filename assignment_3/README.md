@@ -76,7 +76,7 @@ This assignment is designed to test that you have a understanding of:
 <!-- HOW TO RUN -->
 ## How to run
 
-To run the assignments, you need to go through the following steps in your bash-terminal to configure a virtual environment on Worker02 (or your local machine) with the needed prerequisites for all assignments:
+To run the assignment, you need to have configured and activated your virtual environment. See the main [README.md](https://github.com/JohanHorsmans/cds-visual-exam-2021/blob/main/README.md) for a guide on how to this.
 
 Go through the following steps to run assignment 3:
 ```bash
