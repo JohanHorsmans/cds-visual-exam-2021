@@ -23,7 +23,6 @@
     <li><a href="#offical-description-from-instructor">Offical description from instructor</a></li>
     <li><a href="#how-to-run">How to run</a></li>
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
-    <li><a href="#data">Data</a></li>
   </ol>
 </details>
 
@@ -91,13 +90,3 @@ This repository contains the following files:
 ```lr-mnist.py``` | The python script for the logistic regression assignment
 ```nn-mnist.py``` | The python script for the neural network assignment
 ```README.md``` | The README file that you are currently reading.
-
-<!-- DATA -->
-## Data
-
-The data-folder contains the following files:
-
-|File|Description|
-|:--------|:-----------|
-WHTT.jpg | An image of a wall with the declaration of independence inscribed. Default image for the script.
-Pure_text.png | An image with text saying "Pure Text". Can be used to test the --CUSTOM argument in the function.
