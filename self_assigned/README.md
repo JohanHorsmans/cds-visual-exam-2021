@@ -72,14 +72,14 @@ __FIGURE 1__
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
-    <img src="../README_images/model1.JPG" alt="Logo" width="555" height="261">
+    <img src="../README_images/model1.JPG" alt="Logo" width="740" height="348">
   </a>
   
 __FIGURE 2__
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
-    <img src="../README_images/model2.JPG" alt="Logo" width="555" height="261">
+    <img src="../README_images/model2.JPG" alt="Logo" width="740" height="348">
   </a>
   
 
