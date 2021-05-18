@@ -35,10 +35,10 @@ Creating and classifying fake art</h3>
 __Creating fake Monet-images with style transfer and classifying them with CNN's__
 For my self-assigned project, I have created a notebook script that does the following
 
-Markup : 1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
+1. A numbered list
+  1. A nested numbered list
+  2. Which is numbered
+2. Which is numbered
 
 
 <!-- HOW TO RUN -->
