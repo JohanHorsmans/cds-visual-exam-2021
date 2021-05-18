@@ -38,7 +38,7 @@ __Creating fake Monet-images with style transfer and classifying them with CNN's
 For my self-assigned project, I have created a notebook with a pipeline consisting of the following steps:
 
 1. Creating fake Monet-images out of landscape images using style transfer.
-    - The dataset used for the Monet-images (i.e. style-images) is the following: https://www.kaggle.com/delayedkarma/impressionist-classifier-data
+    - The dataset used for the Monet-images (i.e. style-images) is the following: https://www.kaggle.com/delayedkarma/impressionist-classifier-data. I have manually removed the image titled "9223372032559844173.jpg", since it was corrupt
     - The dataset used for landscape-images (i.e. content-images) is the following: https://www.kaggle.com/arnaud58/landscape-pictures
 2. Saving the fake images.
 3. Splitting the data into a testing- and training dataset (containing real- and fake images).
