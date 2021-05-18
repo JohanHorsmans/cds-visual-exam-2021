@@ -68,21 +68,22 @@ Go through the following steps to run the assignment:
 ## Discussion of results
 The "homemade" CNN-model (henceforth referred to as model 1) yielded a macro F1-score of 0.59 after training for 50 epochs. By comparison the pretrained MobileNetV2-model achieved a macro F1-score of 0.99 after only 10 epochs of training. As such, it greatly outperforms the initial model on both performance and efficiency. The training- loss and accuracy for model 1 (see figure 1), seems to suggest that more training epochs could potentially improve results. For both models the accuracy for the validation (i.e. testing data) is much higher in the early epochs compared to the later ones (see figure 1 and 2). I argue that this is most likely due to the ```dropout``` layer at the end of both models, since, when training, 60% of the features are set to 0, whereas, in testing, all features are active and utilized. It seems plausible that this would be the reason behind the more robust classification for testing data in the early stages of model training.
 
-<div align="center">__FIGURE 1:__</div>
-
+<div align="center">FIGURE 1:</div>
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
     <img src="../README_images/model1.JPG" alt="Logo" width="740" height="348">
   </a>
-  
-__FIGURE 2__
+</p>
+
+<div align="center">FIGURE 2:</div>
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
     <img src="../README_images/model2.JPG" alt="Logo" width="740" height="348">
   </a>
-  
+</p>
+
 
 <!-- REPOSITORY STRUCTURE AND CONTENTS -->
 ## Repository structure and contents
