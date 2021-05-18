@@ -6,7 +6,8 @@
   </a>
   
   <h1 align="center">Cultural Data Science 2021</h1> 
-  <h3 align="center">Self Assigned Project: Creating and classifying fake art</h3> 
+  <h3 align="center">Self Assigned Project:</h3> 
+  <h3 align="center">Creating and classifying fake art:</h3> 
 
   <p align="center">
     Johan Kresten Horsmans
