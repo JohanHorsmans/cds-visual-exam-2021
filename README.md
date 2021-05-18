@@ -169,5 +169,5 @@ By all means contact me, Johan Horsmans, for any questions regarding the reposit
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
-    <img src="README_images/logo_au.png" alt="Logo" width="375" height="128">
+    <img src="README_images/logo_au.png" alt="Logo" width="300" height="102">
   </a>
