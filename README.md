@@ -102,7 +102,7 @@ mnist | test
 
 ### Assignment 3 - Edge detection
 
-__Go through the following steps to run assignment 3:__
+Go through the following steps to run assignment 3:
 ```bash
 cd {root directory (i.e. cds-visual-exam-2021}
 cd assignment_3
