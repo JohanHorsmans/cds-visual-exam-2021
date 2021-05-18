@@ -51,7 +51,7 @@ For my self-assigned project, I have created a notebook with a pipeline consisti
 <!-- METHODS -->
 ## Methods
 
-The task is a two-part problem. First, one needs to create a model for carrying out the style transfer and second, one needs to build a classifier capable of distinguishing between the real- and "fake" images. To address the first problem, I first used the [_magenta/arbitrary-image-stylization-v1-256 model_](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2) from tensorflow hub. For the second task I first developed a CNN from scratch. This generated mediocre results so I wanted to see if I could find a better and more efficient classifier. To do so I utilized the pretrained [_MobileNetV2_](https://ai.googleblog.com/2018/04/mobilenetv2-next-generation-of-on.html) model. 
+The task is a two-part problem. First, one needs to create a model for carrying out the style transfer and second, one needs to build a classifier capable of distinguishing between the real- and "fake" images. To address the first problem, I initially experimented with using a [_VGG19_](https://www.tensorflow.org/tutorials/generative/style_transfer)-model, but it took 50 minutes per image (see figure 1), rendering the task practically undoable. Instead, I used the [_magenta/arbitrary-image-stylization-v1-256 model_](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2) from tensorflow hub which was a lot more efficient and produced nearly as good results. For the second task I first developed a CNN from scratch. This generated mediocre results so I wanted to see if I could find a better and more efficient classifier. To do so I utilized the pretrained [_MobileNetV2_](https://ai.googleblog.com/2018/04/mobilenetv2-next-generation-of-on.html) model. 
 
 <!-- HOW TO RUN -->
 ## How to run
@@ -66,9 +66,9 @@ Go through the following steps to run the assignment:
 
 <!-- DISCUSSION OF RESULTS -->
 ## Discussion of results
-The "homemade" CNN-model (henceforth referred to as model 1) yielded a macro F1-score of 0.59 after training for 50 epochs. By comparison the pretrained MobileNetV2-model achieved a macro F1-score of 0.99 after only 10 epochs of training. As such, it greatly outperforms the initial model on both performance and efficiency. The training- loss and accuracy for model 1 (see figure 1), seems to suggest that more training epochs could potentially improve results. For both models the accuracy for the validation (i.e. testing data) is much higher in the early epochs compared to the later ones (see figure 1 and 2). I argue that this is most likely due to the ```dropout``` layer at the end of both models, since, when training, 60% of the features are set to 0, whereas, in testing, all features are active and utilized. It seems plausible that this would be the reason behind the more robust classification for testing data in the early stages of model training.
+The "homemade" CNN-model (henceforth referred to as model 1) yielded a macro F1-score of 0.59 after training for 50 epochs. By comparison the pretrained MobileNetV2-model achieved a macro F1-score of 0.99 after only 10 epochs of training. As such, it greatly outperforms the initial model on both performance and efficiency. The training- loss and accuracy for model 1 (see figure 1), seems to suggest that more training epochs could potentially improve results. For both models the accuracy for the validation (i.e. testing data) is much higher in the early epochs compared to the later ones (see figure 2 and 3). I argue that this is most likely due to the ```dropout``` layer at the end of both models, since, when training, 60% of the features are set to 0, whereas, in testing, all features are active and utilized. It seems plausible that this would be the reason behind the more robust classification for testing data in the early stages of model training.
 
-<div align="center">FIGURE 1:</div>
+<div align="center">FIGURE 2:</div>
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
@@ -76,7 +76,7 @@ The "homemade" CNN-model (henceforth referred to as model 1) yielded a macro F1-
   </a>
 </p>
 
-<div align="center">FIGURE 2:</div>
+<div align="center">FIGURE 3:</div>
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
