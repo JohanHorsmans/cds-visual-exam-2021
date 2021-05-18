@@ -75,14 +75,15 @@ This repository contains the following folders:
 
 |Folder|Description|
 |:--------|:-----------|
-```data/```| Folder containing the data used for the assignments
-```assignment_.*/``` | Folder containing code for the four assignments
-```utils``` | Folder containing utility functions written by our teacher, [Ross Deans Kristensen-McLachlan](https://pure.au.dk/portal/en/persons/ross-deans-kristensenmclachlan(29ad140e-0785-4e07-bdc1-8af12f15856c).html), which are employed in some of the assignments.
+```README_images/```| Folder containing the images in this README-file
+```assignment_.*/``` | Folders containing code and data for the four assignments
+```utils/``` | Folder containing utility functions written by our teacher, [Ross Deans Kristensen-McLachlan](https://pure.au.dk/portal/en/persons/ross-deans-kristensenmclachlan(29ad140e-0785-4e07-bdc1-8af12f15856c).html), which are employed in some of the assignments.
 
 Furthermore, it holds the following files:
 |File|Description|
 |:--------|:-----------|
-```./create_vis_venv.*.sh``` | A bash script that generates a new virtual environment with all the packages specified in the ```requirements.txt```-file.
+```create_visual_venv.sh``` | A bash script that generates a new virtual environment called "visual_venv" with all the packages specified in the ```requirements.txt```-file.
+```data_download.sh``` | A bash-script that automatically downloads all data and creates the necessary folder structure that is needed to run the assignments.
 ```requirements.txt``` | A txt-file containing a list of the packages (and versions) that are needed for the virtual environment.
 ```README.md``` | The README file that you are currently reading.
 
