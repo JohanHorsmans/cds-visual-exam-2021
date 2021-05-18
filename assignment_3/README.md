@@ -20,7 +20,7 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#Offical-description-from-instructor:">Offical description from instructor</a></li>
+    <li><a href="#offical-description-from-instructor:">Offical description from instructor</a></li>
     <li><a href="#how-to-run">How to run</a></li>
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
     <li><a href="#data">Data</a></li>
