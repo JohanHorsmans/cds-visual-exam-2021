@@ -61,7 +61,7 @@ Go through the following steps to run the assignment:
 1. Navigate to the "self_assigned"-folder.
 2. Open the "self_assigned.ipynb"-file.
 3. Make sure the kernel is set to visual_venv.
-    - You can this by pressing "kernel" -> "change kernel" -> "visual_venv". 
+    - You can do this by pressing "kernel" -> "change kernel" -> "visual_venv". 
 
 <!-- DISCUSSION OF RESULTS -->
 ## Discussion of results
