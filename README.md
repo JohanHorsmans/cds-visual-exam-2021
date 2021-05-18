@@ -23,7 +23,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#project-info">Project info</a></li>
-    <li><a href="#how-to-run">How to run</a></li>
+    <li><a href="#setting-up-virtual-environment-and-downloading-data">Setting Up Virtual Environment And Downloading Data</a></li>
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
     <li><a href="#data">Data</a></li>
     <li>
@@ -54,7 +54,7 @@ The assignments included in this portfolio are the following:
 * Self-assigned - _something fucking sick_
 
 <!-- HOW TO RUN -->
-## How to run
+## Setting Up Virtual Environment And Downloading Data
 
 To run the assignments, you need to go through the following steps in your bash-terminal to configure a virtual environment on Worker02 (or your local machine) with the needed prerequisites for all assignments:
 
