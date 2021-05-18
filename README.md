@@ -108,7 +108,7 @@ cd {root directory (i.e. cds-visual-exam-2021}
 cd assignment_3
 python3 edge_detection.py
 ```
-Type: ```bash python3 edge_detection.py -h``` for a detailed guide on how to specify script-parameters. 
+Type: ```python3 edge_detection.py -h``` for a detailed guide on how to specify script-parameters. 
 
 For more information, see [```assignment_3/README.md```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/assignment_3)
 
