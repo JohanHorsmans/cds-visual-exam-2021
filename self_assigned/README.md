@@ -70,6 +70,7 @@ The "homemade" CNN-model (henceforth referred to as model 1) yielded a macro F1-
 
 ![](../README_images/model1.JPG)
 *image_caption*
+img + em { }
 
 
 <div align="center">FIGURE 1:</div>
