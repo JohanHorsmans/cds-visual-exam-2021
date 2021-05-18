@@ -58,7 +58,6 @@ The assignments included in this portfolio are the following:
 
 To run the assignments, you need to go through the following steps in your bash-terminal to configure a virtual environment on Worker02 (or your local machine) with the needed prerequisites for all assignments:
 
-__Setting up virtual environment and downloading data__
 ```bash
 cd {directory where you want the assignment saved)
 git clone https://github.com/JohanHorsmans/cds-visual-exam-2021.git
