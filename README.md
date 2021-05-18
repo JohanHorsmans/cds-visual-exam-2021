@@ -102,6 +102,14 @@ mnist | test
 
 ### Assignment 3 - Edge detection
 
+__Go through the following steps to run assignment 3:__
+```bash
+cd {root directory (i.e. cds-visual-exam-2021}
+cd assignment_3
+python3 edge_detection.py
+```
+Type: ```bash python3 edge_detection.py -h``` for a detailed guide on how to specify script-parameters. 
+
 For more information, see [```assignment_3/README.md```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/assignment_3)
 
 ### Assignment 4 - Logistic Regression and Neural Network benchmark mnist classification
