@@ -51,7 +51,7 @@ ap = argparse.ArgumentParser(description = "[DESCRIPTION]: A function to classif
 ap.add_argument("-f", "--filename", default = "metrics_nn", type = str, help = "string, name of the file with evaluation metrics produced by the script. [DEFAULT]: metrics_nn")
 
 ap.add_argument("-l", "--layers", default = [8, 16], nargs="*",  # nargs specifies that it should convert the input to a list.
-type = int, help = "integer, specify amount of layers and their size: [DEFAULT]: 8 16")
+type = int, help = "integer, specify amount of layers and their size (between the input and output layers): [DEFAULT]: 8 16")
 
 ap.add_argument("-s", "--save", type=str2bool, nargs='?', const=True, default=True, help = "boolean, whether or not the fitted neural network model should be saved [DEFAULT]: True")
 
@@ -95,7 +95,7 @@ def main(filename, layers, save, custom, epoch):
     
     # Define the network as "nn":
     nn = NeuralNetwork(layers)
-    print("[INFO] structure of the network: {}".format(nn)) #Sanity check for the user.
+    print("[INFO]: structure of the network: {}".format(nn)) #Sanity check for the user.
     
     print("[INFO]: Fitting neural network")
     # Fit the network to the training data with the specified amount of epochs:
@@ -123,7 +123,7 @@ def main(filename, layers, save, custom, epoch):
     doc.write(f"{cm}") # Write the classification matrix to the document.
     doc.close() # Close the document for further editing.
     
-    print(f"[INFO]: The classification matrix has successfully been saved as {filename}.txt")
+    print(f"[INFO]: The classification matrix has successfully been saved as \"{filename}.txt\" in the \"out\"-folder")
     
     if save == True:
         # Saving model
@@ -131,7 +131,7 @@ def main(filename, layers, save, custom, epoch):
         #joblib.dump(nn, outpath_nn_model)
         pickle.dump(nn, open(outpath_nn_model, 'wb'))
         #nn.save(outpath_nn_model)
-        print(f"[INFO]: The trained neural networks model has been saved: \"{outpath_nn_model}\".")
+        print(f"[INFO]: The trained neural network model has been saved as \"{outpath_nn_model}\" in the \"out\"-folder")
     
     # If the specified 'custom' argument is something other than default (i.e. 0), then do the following:
     if custom != 0:

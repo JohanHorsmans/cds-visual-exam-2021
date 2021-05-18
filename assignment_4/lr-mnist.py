@@ -47,11 +47,11 @@ ap = argparse.ArgumentParser(description = "[DESCRIPTION]: A function to classif
 
 ap.add_argument("-f", "--filename", default = "metrics_lr", type = str, help = "string, name of the file with evaluation metrics produced by the script. [DEFAULT]: metrics_lr")
 
-ap.add_argument("-c", "--custom", default = 0, type = str, help = "string, the path to a custom image that you would like to classify. [DEFAULT]: 0")
+ap.add_argument("-c", "--custom", default = 0, type = str, help = "string, the path to a custom image that you would like to classify. Set to 0 for using the mnist data. Be weary of difference in operating systems in terms of spcifying path with \" / \" or \" \ \". [DEFAULT]: 0")
 
 ap.add_argument("-t", "--tolerance", default = 0.1, type = float, help = "float, tolerance for stopping criteria for logistic regression model. [DEFAULT]: 0.1")
 
-ap.add_argument("-p", "--penalty", default = 'none', type = str, help = "str, penalization type for logistic regresion model. (for options see: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html). [DEFAULT]: none")
+ap.add_argument("-p", "--penalty", default = 'none', type = str, help = "str, penalization type for logistic regresion model. (for options, see: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html). [DEFAULT]: none")
 
 # Parse the arguments
 args = vars(ap.parse_args())
@@ -105,7 +105,7 @@ def main(filename, custom, penalty, tolerance):
     doc.write(f"{cm}") # Write the classification matrix to the document.
     doc.close() # Close the document for further editing.
     
-    print(f"[INFO]: The classification matrix has successfully been saved as {filename}.txt")
+    print(f"[INFO]: The classification matrix has successfully been saved as \"{filename}.txt\" in the \"out\"-folder")
     
     # Specify custom image argument:
     
