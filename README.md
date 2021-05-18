@@ -165,3 +165,9 @@ By all means contact me, Johan Horsmans, for any questions regarding the reposit
 
 [twitter]: https://twitter.com/JohanHorsmans
 [facebook]: https://www.facebook.com/johan.horsmans/
+
+<br />
+<p align="center">
+  <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
+    <img src="README_images/computer vision.png" alt="Logo" width="142" height="131">
+  </a>
