@@ -72,7 +72,7 @@ The "homemade" CNN-model (henceforth referred to as model 1) yielded a macro F1-
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
-    <img src="../README_images/model1.JPG" alt="Logo" width="740" height="348">
+    <img src="../README_images/model1.JPG" alt="Logo" width="740" height="348" “image title”>
   </a>
 </p>
 
