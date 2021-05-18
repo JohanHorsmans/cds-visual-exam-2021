@@ -139,6 +139,8 @@ For more information, see [```assignment_5/README.md```](https://github.com/Joha
 
 ### Self-assigned assignment
 
+To run the self-assigned assignment, go the the "self_assigned.ipynb"-notebook in the "self_assigned"-folder.
+
 For more information, see [```self_assigned/README.md```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/self_assigned)
 
 <!-- LICENSE -->
