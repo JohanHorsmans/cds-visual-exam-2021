@@ -90,3 +90,9 @@ This repository contains the following files:
 ```lr-mnist.py``` | The python script for the logistic regression assignment
 ```nn-mnist.py``` | The python script for the neural network assignment
 ```README.md``` | The README file that you are currently reading.
+
+<br />
+<p align="center">
+  <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
+    <img src="../README_images/logo_au.png" alt="Logo" width="300" height="102">
+  </a>
