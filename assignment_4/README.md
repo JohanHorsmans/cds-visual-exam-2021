@@ -6,7 +6,7 @@
   </a>
   
   <h1 align="center">Cultural Data Science 2021</h1> 
-  <h3 align="center">Assignment 3</h3> 
+  <h3 align="center">Assignment 4</h3> 
 
   <p align="center">
     Johan Kresten Horsmans
@@ -46,7 +46,6 @@ __Tips__
 * You may need to do some data manipulation to get the MNIST data into a usable format for your models
 * If you have trouble doing this on your own machine, use worker02!
 
-
 __Bonus Challenges__
 * Have the scripts save the classifier reports in a folder called out, as well as printing them to screen. Add the user should be able to define the file name as a command line argument (easier)
 * Allow users to define the number and size of the hidden layers using command line arguments (intermediate)
@@ -74,11 +73,12 @@ This assignment is designed to test that you have a understanding of:
 
 __NOTICE:__ To run the assignment, you need to have configured and activated your virtual environment. See the main [README.md](https://github.com/JohanHorsmans/cds-visual-exam-2021/blob/main/README.md) for a guide on how to this.
 
-Go through the following steps to run assignment 3:
+Go through the following steps to run assignment 4:
 ```bash
 cd {root directory (i.e. cds-visual-exam-2021}
-cd assignment_3
-python3 edge_detection.py
+cd assignment_4
+python3 lr-mnist.py
+python3 nn-mnist.py
 ```
 Type: ```python3 edge_detection.py -h``` for a detailed guide on how to specify script-parameters. 
 
