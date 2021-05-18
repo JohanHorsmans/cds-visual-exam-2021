@@ -1,6 +1,35 @@
-# Assignment 4 - Classification benchmarks
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
+    <img src="../README_images/computer vision.png" alt="Logo" width="142" height="131">
+  </a>
+  
+  <h1 align="center">Cultural Data Science 2021</h1> 
+  <h3 align="center">Assignment 3</h3> 
 
-## DESCRIPTION
+  <p align="center">
+    Johan Kresten Horsmans
+    <br />
+    <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021.pdf"><strong>Link to portfolio descriptions »</strong></a>
+    <br />
+  </p>
+</p>
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#offical-description-from-instructor">Offical description from instructor</a></li>
+    <li><a href="#how-to-run">How to run</a></li>
+    <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
+    <li><a href="#data">Data</a></li>
+  </ol>
+</details>
+
+<!-- OFFICIAL DESCRIPTION FROM INSTRUCTOR -->
+## Offical description from instructor
+
 __Classifier benchmarks using Logistic Regression and a Neural Network__
 
 This assignment builds on the work we did in class and from session 6.
@@ -39,3 +68,41 @@ This assignment is designed to test that you have a understanding of:
 * how to train classification models using machine learning and neural networks;
 * how to create simple models that can be used as statistical benchmarks;
 * how to do this using scripts which can be executed from the command line
+
+<!-- HOW TO RUN -->
+## How to run
+
+__NOTICE:__ To run the assignment, you need to have configured and activated your virtual environment. See the main [README.md](https://github.com/JohanHorsmans/cds-visual-exam-2021/blob/main/README.md) for a guide on how to this.
+
+Go through the following steps to run assignment 3:
+```bash
+cd {root directory (i.e. cds-visual-exam-2021}
+cd assignment_3
+python3 edge_detection.py
+```
+Type: ```python3 edge_detection.py -h``` for a detailed guide on how to specify script-parameters. 
+
+<!-- REPOSITORY STRUCTURE AND CONTENTS -->
+## Repository structure and contents
+
+This repository contains the following folders:
+
+|Folder|Description|
+|:--------|:-----------|
+```data/``` | Folder containing data for assignment 3
+
+Furthermore, it holds the following files:
+|File|Description|
+|:--------|:-----------|
+```edge_detection.py``` | The python script for the assignment
+```README.md``` | The README file that you are currently reading.
+
+<!-- DATA -->
+## Data
+
+The data-folder contains the following files:
+
+|File|Description|
+|:--------|:-----------|
+WHTT.jpg | An image of a wall with the declaration of independence inscribed. Default image for the script.
+Pure_text.png | An image with text saying "Pure Text". Can be used to test the --CUSTOM argument in the function.
