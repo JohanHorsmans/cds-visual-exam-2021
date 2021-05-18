@@ -16,9 +16,20 @@
   </p>
 </p>
 
-# Assignment 3:
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li><a href="#Offical description from instructor:">Offical description from instructor:</a></li>
+    <li><a href="#how-to-run">How to run</a></li>
+    <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
+    <li><a href="#data">Data</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-## Description:
+<!-- OFFICIAL DESCRIPTION FROM INSTRUCTOR -->
+## Offical description from instructor:
 
 ### Finding text using edge detection
 
@@ -62,3 +73,17 @@ This assignment is designed to test that you have a understanding of:
 * how to use a variety of image processing steps;
 * how to perform edge detection;
 * how to combine these skills in order to find specific features in an image
+
+<!-- HOW TO RUN -->
+## How to run
+
+To run the assignments, you need to go through the following steps in your bash-terminal to configure a virtual environment on Worker02 (or your local machine) with the needed prerequisites for all assignments:
+
+Go through the following steps to run assignment 3:
+```bash
+cd {root directory (i.e. cds-visual-exam-2021}
+cd assignment_3
+python3 edge_detection.py
+```
+Type: ```python3 edge_detection.py -h``` for a detailed guide on how to specify script-parameters. 
+
