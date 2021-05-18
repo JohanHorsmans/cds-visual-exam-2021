@@ -6,7 +6,7 @@
   </a>
   
   <h1 align="center">Cultural Data Science 2021</h1> 
-  <h3 align="center">Self Assigned Project:
+  <h3 align="center"><ins>Self Assigned Project:<ins>
 
 _Creating and classifying fake art_</h3> 
 
