@@ -80,7 +80,7 @@ cd assignment_4
 python3 lr-mnist.py
 python3 nn-mnist.py
 ```
-Type: ```python3 edge_detection.py -h``` for a detailed guide on how to specify script-parameters. 
+Type: ```python3 lr-mnist.py -h``` and ```python3 nn-mnist.py -h``` for a detailed guide on how to specify script-parameters. 
 
 <!-- REPOSITORY STRUCTURE AND CONTENTS -->
 ## Repository structure and contents
