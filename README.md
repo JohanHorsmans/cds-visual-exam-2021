@@ -25,7 +25,6 @@
     <li><a href="#project-info">Project info</a></li>
     <li><a href="#setting-up-virtual-environment-and-downloading-data">Setting Up Virtual Environment And Downloading Data</a></li>
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
-    <li><a href="#data">Data</a></li>
     <li>
       <a href="#portfolio-assignments">Portfolio assignments</a>
       <ul>
@@ -85,17 +84,6 @@ Furthermore, it holds the following files:
 ```data_download.sh``` | A bash-script that automatically downloads all data and creates the necessary folder structure that is needed to run the assignments.
 ```requirements.txt``` | A txt-file containing a list of the packages (and versions) that are needed for the virtual environment.
 ```README.md``` | The README file that you are currently reading.
-
-<!-- DATA -->
-## Data
-
-The data-folder contains the following files:
-
-|File|Description|
-|:--------|:-----------|
-flowers | flowers
-cf-test | test
-mnist | test
 
 <!-- PORTFOLIO ASSIGNMENTS -->
 ## Portfolio assignments
