@@ -85,16 +85,11 @@ Type: ```python3 lr-mnist.py -h``` and ```python3 nn-mnist.py -h``` for a detail
 <!-- REPOSITORY STRUCTURE AND CONTENTS -->
 ## Repository structure and contents
 
-This repository contains the following folders:
-
-|Folder|Description|
-|:--------|:-----------|
-```data/``` | Folder containing data for assignment 3
-
-Furthermore, it holds the following files:
+This repository contains the following files:
 |File|Description|
 |:--------|:-----------|
-```edge_detection.py``` | The python script for the assignment
+```lr-mnist.py``` | The python script for the logistic regression assignment
+```nn-mnist.py``` | The python script for the neural network assignment
 ```README.md``` | The README file that you are currently reading.
 
 <!-- DATA -->
