@@ -90,7 +90,7 @@ The "homemade" CNN-model (henceforth referred to as model 1) yielded a macro F1-
 This repository contains the following folder (before downloading data):
 |File|Description|
 |:--------|:-----------|
-```raw_data``` | A folder with all the 398 Monet images and 25 handpicked-content images. 
+```raw_data``` | A folder with all the 398 Monet images and 25 handpicked content-images depicting French landscapes. 
 
 Furthermore, it also contains the following files:
 |File|Description|
