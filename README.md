@@ -114,6 +114,15 @@ For more information, see [```assignment_3/README.md```](https://github.com/Joha
 
 ### Assignment 4 - Logistic Regression and Neural Network benchmark mnist classification
 
+Go through the following steps to run assignment 4:
+```bash
+cd {root directory (i.e. cds-visual-exam-2021}
+cd assignment_4
+python3 lr-mnist.py
+python3 nn-mnist.py
+```
+Type: ```python3 lr-mnist.py -h``` and ```python3 nn-mnist.py -h``` for a detailed guide on how to specify script-parameters. 
+
 For more information, see [```assignment_4/README.md```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/assignment_4)
 
 ### Assignment 5 - CNN classification of impressionist paintings
