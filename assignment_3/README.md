@@ -1,3 +1,21 @@
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
+    <img src="README_images/computer vision.png" alt="Logo" width="142" height="131">
+  </a>
+  
+  <h1 align="center">Cultural Data Science 2021</h1> 
+  <h3 align="center">Assignment 3</h3> 
+
+  <p align="center">
+    Johan Kresten Horsmans
+    <br />
+    <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021.pdf"><strong>Link to portfolio descriptions »</strong></a>
+    <br />
+  </p>
+</p>
+
 # Assignment 3:
 
 ## Description:
