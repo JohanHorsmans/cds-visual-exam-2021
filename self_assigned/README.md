@@ -35,7 +35,7 @@ Creating and classifying fake art</h3>
 __Creating fake Monet-images with style transfer and classifying them with CNN's__
 For my self-assigned project, I have created a notebook that does the following:
 
-1. Creating fake Monet-images out of landscape images using style transfer.
+__1.__ Creating fake Monet-images out of landscape images using style transfer.
     1. The dataset used for the Monet-images (i.e. style-images) is the following: https://www.kaggle.com/delayedkarma/impressionist-classifier-data
     2. The dataset used for landscape-images (i.e. content-images) is the following: https://www.kaggle.com/arnaud58/landscape-pictures
 2. Saving the fake images.
