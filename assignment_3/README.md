@@ -110,3 +110,9 @@ The data-folder contains the following files:
 |:--------|:-----------|
 WHTT.jpg | An image of a wall with the declaration of independence inscribed. Default image for the script.
 Pure_text.png | An image with text saying "Pure Text". Can be used to test the --CUSTOM argument in the function.
+
+<br />
+<p align="center">
+  <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
+    <img src="../README_images/logo_au.png" alt="Logo" width="300" height="102">
+  </a>
