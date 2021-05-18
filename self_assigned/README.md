@@ -88,20 +88,19 @@ The "homemade" CNN-model (henceforth referred to as model 1) yielded a macro F1-
 <!-- REPOSITORY STRUCTURE AND CONTENTS -->
 ## Repository structure and contents
 
-This repository contains the following files:
+This repository contains the following folder (before downloading data):
 |File|Description|
 |:--------|:-----------|
-```cnn-artists.py``` | The python script for the assignment
+```raw_data``` | A folder with all the 398 Monet images and 25 handpicked-content images. 
+
+Furthermore, it also contains the following files:
+|File|Description|
+|:--------|:-----------|
+```self-assigned-project.ipynb``` | The jupyter notebook for the assignment
 ```README.md``` | The README file that you are currently reading.
 
 <!-- DATA -->
 ## Data
-
-This repository contains the following files:
-|File|Description|
-|:--------|:-----------|
-```cnn-artists.py``` | The python script for the assignment
-```README.md``` | The README file that you are currently reading.
 
 <br />
 <p align="center">
