@@ -45,9 +45,9 @@ def main(epochs):
         return np.array(data) # When done, convert data to a numpy-array.
     
     # Load train- and test data:
-    print("[INFO]: loading training data")
+    print("[INFO]: Loading training data")
     train = get_data("data/training/training") 
-    print("[INFO]: loading testing data")
+    print("[INFO]: Loading testing data")
     test = get_data("data/validation/validation")
 
     
@@ -132,7 +132,7 @@ def main(epochs):
     plt.legend(loc='upper right') # Add legend.
     plt.title('Training and Validation oss') # Add title.
     plt.savefig('val_acc.png') # Save the plot as "val_acc.png".
-    print("[INFO]: Model training metrics has been successfully saved as \"val_acc.png\"")
+    print("[INFO]: Model training metrics has been successfully saved as \"val_acc.png\" in the \"assignment_5\"-folder")
     
     # Recreate testing labels to convert them back to their original format (from a one-hot tensor):
     y_test = []
@@ -155,7 +155,7 @@ def main(epochs):
     doc = open("cm.txt", "w") # Create a document in the "out"-folder titled {filename}.txt
     doc.write(f"{cm}") # Write the classification matrix to the document.
     doc.close() # Close the document for further editing.
-    print("[INFO]: The classification matrix has successfully been saved as cm.txt")
+    print("[INFO]: The classification matrix has successfully been saved as cm.txt in the \"assignment_5\"-folder")
 
 
 if __name__ =="__main__":
