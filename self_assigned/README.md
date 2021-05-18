@@ -51,7 +51,7 @@ For my self-assigned project, I have created a notebook with a pipeline consisti
 <!-- METHODS -->
 ## Methods
 
-The task is a two-part problem. First, one needs to create a model for carrying out the style transfer and second, one needs to build a classifier capable of distinguishing between the real- and "fake" images. To address the first problem, I first used the _[magenta/arbitrary-image-stylization-v1-256 model]_(https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2) from tensorflow hub. For the second task I first developed a CNN from scratch. This generated mediocre results so I wanted to see if I could find a better and more efficient classifier. To do so I utilized the pretrained [_MobileNetV2_](https://ai.googleblog.com/2018/04/mobilenetv2-next-generation-of-on.html) model. 
+The task is a two-part problem. First, one needs to create a model for carrying out the style transfer and second, one needs to build a classifier capable of distinguishing between the real- and "fake" images. To address the first problem, I first used the [_magenta/arbitrary-image-stylization-v1-256 model_](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2) from tensorflow hub. For the second task I first developed a CNN from scratch. This generated mediocre results so I wanted to see if I could find a better and more efficient classifier. To do so I utilized the pretrained [_MobileNetV2_](https://ai.googleblog.com/2018/04/mobilenetv2-next-generation-of-on.html) model. 
 
 <!-- HOW TO RUN -->
 ## How to run
