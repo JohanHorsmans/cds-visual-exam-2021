@@ -140,7 +140,6 @@ the protection of divine providence we mutually pledge our lives our fortunes an
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
     <img src="../README_images/image_letters.jpg" alt="Logo">
   </a>
-
 <p align="center">
 Figure 1: The final contours drawn on the image.
 
