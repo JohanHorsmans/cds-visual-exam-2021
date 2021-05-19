@@ -1,14 +1,28 @@
 #!/usr/bin/env python
 
-# data tools
-import os, cv2, argparse
+# Loading packages:
+
+# Import system tools:
+import os
+import sys
+sys.path.append(os.path.join(".."))
+
+# Import cv2 for working with images:
+import cv2
+
+# Import argparse to specify arguments in the script from the commandline:
+import argparse
+
+# Import numpy for working with arrays:
 import numpy as np
+
+# Import matplotlib for plots:
 import matplotlib.pyplot as plt
 
-# sklearn tools
+# Import sklearn tools for metrics:
 from sklearn.metrics import classification_report
 
-# tf tools
+# Import tensorflow and keras for machine learning:
 import tensorflow as tf
 import keras
 from keras.models import Sequential
@@ -23,35 +37,39 @@ warnings.filterwarnings('ignore')
 # Define function argument defaults and how to specify them from the terminal:
 ap = argparse.ArgumentParser(description = "[DESCRIPTION]: A script to classify artists from paintings. The following parameters can be specified, but you can also run the code with default parameters:")
 
-ap.add_argument("-e", "--epochs", default = "10", type = int, help = "string, name of the file with evaluation metrics produced by the script. [DEFAULT]: metrics_lr")
+ap.add_argument("-e", "--epochs", default = "10", type = int, help = "string, name of the file with evaluation metrics produced by the script. [DEFAULT]: 10")
 
 # Parse the arguments
 args = vars(ap.parse_args())
 
 # Define the main function of the script and what parameters it takes: 
 def main(epochs):
+    
 # Define the data-classes in a list called "labels"
-    labels = ['Cezanne', 'Degas', 'Gauguin', 'Hassam', 'Matisse', 'Monet', 'Pissarro', 'Renoir', 'Sargent', 'VanGogh'] 
-# Define function to load the data and convert it into a suitable format for the CNN correct format:
+    labels = ['Cezanne', 'Degas', 'Gauguin', 'Hassam', 'Matisse', 'Monet', 'Pissarro', 'Renoir', 'Sargent', 'VanGogh']
+    
+# Define a function to load the data and convert it into a suitable format for the CNN classifiers:
     def get_data(directory): # Define function called "get_data" that takes "directory" as input variable:
         data = [] # Define empty list called "data".
-        for label in labels: # For each label in the list "labels" ...
+        for label in labelsW: # For each label in the list "labels" ...
             path = os.path.join(directory, label)  # ... Specify the path as "directory/label" 
-            class_num = labels.index(label) # ... Specify "class_num" as the index of the current label in the "labels"-list (i.e. monet = 0 and fake_iamges = 1)
+            class_num = labels.index(label) # ... Specify "class_num" as the index of the current label in the "labels"-list (i.e. Cezanne = 0 and Gauguin = 3)
             for img in os.listdir(path): # For each image in "path" ...
-                img_arr = cv2.imread(os.path.join(path, img))[...,::-1] # Read the image, convert BGR to RGB-format and save it as "img_arr"
+                img_arr = cv2.imread(os.path.join(path, img))[...,::-1] # Read the image, convert BGR to RGB-format and save it as a variable named "img_arr"
                 resized_arr = cv2.resize(img_arr, (224, 224)) # ... Reshape the image to 224 x 224.
                 data.append([resized_arr, class_num]) # Append the image to the "data"-list as the first element and the class as the second element. 
         return np.array(data) # When done, convert data to a numpy-array.
     
-    # Load train- and test data:
+    # Use above function to load train- and test data:
     print("[INFO]: Loading training data")
     train = get_data("data/training/training") 
+    
     print("[INFO]: Loading testing data")
     test = get_data("data/validation/validation")
 
     
     print("[INFO]: Preprocessing data")
+    
     # Data preprocesing:
 
     # Define empty lists for data. The x's are for images and the y's are for classes. I'm using the same data for testing and validation.
@@ -90,22 +108,22 @@ def main(epochs):
     
     # Initialize keras-model with some extra layers on top: 
     model = tf.keras.Sequential([pretrained_model, 
-                                     tf.keras.layers.GlobalAveragePooling2D(), # Add a average pooling layer.
-                                     tf.keras.layers.Dropout(0.6), # Add dropout layer, which sets 40% of the layer inputs to 0 (to avoid overfitting).
-                                     tf.keras.layers.Dense(10, activation="softmax") # Add a dense layer with 2 output nodes (one for each class).                                     
+                                     tf.keras.layers.GlobalAveragePooling2D(), # Add an average pooling layer.
+                                     tf.keras.layers.Dropout(0.6), # Add dropout layer, wih 40% of the layer inputs set to 0 (to avoid overfitting).
+                                     tf.keras.layers.Dense(10, activation="softmax") # Add a dense layer with 10 output nodes (one for each class).                                     
                                     ])
     
-    # Define adam optimizer with a high learning rate to increase efficiency.
+    # Define adam optimizer with a high learning rate to increase training efficiency.
     optimizer = SGD(lr = 0.01) 
 
-    # Compile model with BinaryCrossentropy loss function and the above optimizer.
+    # Compile model with CategoricalCrossentropy loss function and the above optimizer.
     model.compile(optimizer=optimizer,
                   loss=tf.keras.losses.CategoricalCrossentropy(from_logits=True),
                   metrics=['accuracy'])
     
     # Train the model for specified number of epochs:
 
-    epochs = epochs # Define epochs-object.
+    epochs = epochs # Define epochs-variable as argument specified in the terminal.
 
     print("[INFO]: Fitting model")
     fitted_model = model.fit(x_train,y_train,epochs = epochs, validation_data = (x_test, y_test))
@@ -148,10 +166,11 @@ def main(epochs):
 
     # Create classification report:
     cm = classification_report(y_test, predictions, target_names = ['Cezanne', 'Degas', 'Gauguin', 'Hassam', 'Matisse', 'Monet', 'Pissarro', 'Renoir', 'Sargent', 'VanGogh'])
-    # Create classification report:
+    
+    # Print classification report:
     print(cm) 
     
-    # Write the classification matrix to a .txt-file:
+    # Write the classification matrix to a .txt-file called "cm.txt":
     doc = open("cm.txt", "w") # Create a document in the "out"-folder titled {filename}.txt
     doc.write(f"{cm}") # Write the classification matrix to the document.
     doc.close() # Close the document for further editing.
