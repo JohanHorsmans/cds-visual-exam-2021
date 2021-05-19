@@ -142,6 +142,9 @@ the protection of divine providence we mutually pledge our lives our fortunes an
   </a>
 
 
+My ![alt attribute goes here!](../README_images/image_letters.jpg "This is a Title" )
+
+  
 
 <br />
 <p align="center">
