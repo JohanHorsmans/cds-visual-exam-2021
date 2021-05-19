@@ -50,7 +50,7 @@ The assignments included in this portfolio are the following:
 * Assignment 3 - _Edge detection_
 * Assignment 4 - _Logistic Regression and Neural Network benchmark mnist classification_
 * Assignment 5 - _CNN classification of impressionist paintings_
-* Self-assigned project - __Creating fake Monet-images with style transfer and classifying them with CNN’s__
+* Self-assigned project - _Creating fake Monet-images with style transfer and classifying them with CNN’s_
 
 <!-- HOW TO RUN -->
 ## Setting Up Virtual Environment And Downloading Data
