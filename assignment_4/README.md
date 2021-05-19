@@ -24,6 +24,7 @@
     <li><a href="#methods">Methods</a></li>
     <li><a href="#how-to-run">How to run</a></li>
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
+    <li><a href="#discussion-of-results">Discussion of results</a></li>
   </ol>
 </details>
 
