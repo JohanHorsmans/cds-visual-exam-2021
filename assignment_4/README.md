@@ -21,6 +21,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#offical-description-from-instructor">Offical description from instructor</a></li>
+    <li><a href="#methods">Methods</a></li>
     <li><a href="#how-to-run">How to run</a></li>
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
   </ol>
@@ -67,6 +68,13 @@ This assignment is designed to test that you have a understanding of:
 * how to create simple models that can be used as statistical benchmarks;
 * how to do this using scripts which can be executed from the command line
 
+<!-- METHODS -->
+## Methods
+
+This problem of this assignment relates to using predictive models to classify greyscale images of hand drawn numbers in the MNIST dataset and evaluating the model classifications. For the logistic regression classifier, I used the LogisticRegression-function from sklearn.linear_model. For the neural network, I created a dense network where you could specify the structure and size of the layers between the input and the output as an argument called --layers. The default structure of the neural network is [224, 8, 16, 10]. Note that my script uses the same data for validation and testing. Furthermore, I solved all of the bonus assignments. For the tasks that required specifying arguments from the terminal, I used argparse. For model evaluation, I have chosen to use macro F1-score as my metric: 
+
+The F1-score is a metric devised to fuse the relation between model precision and recall into a unified score. The metric is defined as taking the harmonic mean of precision and recall. The reason for using the harmonic mean, rather than the arithmetic mean, is that the harmonic mean of a recall-score of 0 and a precision-score of 100 would result in an F1-score of 0, rather than 50. This is advantageous, since it means that a model cannot achieve a high F1-score by having a high recall or precision by itself. The macro-averaging procedure of the macro F1-score involves calculating the arithmetic mean of the F1-score for each class.
+
 <!-- HOW TO RUN -->
 ## How to run
 
@@ -90,6 +98,11 @@ This repository contains the following files:
 ```lr-mnist.py``` | The python script for the logistic regression assignment
 ```nn-mnist.py``` | The python script for the neural network assignment
 ```README.md``` | The README file that you are currently reading.
+
+<!-- DISCUSSION OF RESULTS -->
+## Discussion of results
+
+For the neural network model, I achieved a macro F1-score of 0.89 after training for 50 epochs. For the logistic regression model, I achieved a macro F1-score of 0.91. When testing the models with custom imagefiles the performance drops drastically indicating that the models are overfitting to the specifics of the MNIST-dataset, leading to low generalizability. 
 
 <br />
 <p align="center">
