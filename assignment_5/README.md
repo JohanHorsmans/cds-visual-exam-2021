@@ -21,8 +21,10 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#offical-description-from-instructor">Offical description from instructor</a></li>
+    <li><a href="#methods">Methods</a></li>
     <li><a href="#how-to-run">How to run</a></li>
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
+    <li><a href="#discussion-of-results">Discussion of results</a></li>
   </ol>
 </details>
 
@@ -68,6 +70,11 @@ This assignment is designed to test that you have a understanding of:
 * how to preprocess and prepare image data for use in these models;
 * how to work with complex, cultural image data, rather than toy datasets
 
+<!-- METHODS -->
+## Methods
+
+The problem of the assignment relates to classifying complex image data that even most humans would have a hard time classifying correctly. To address the problem, I finetuned an advanced pretrained CNN in the form of the _MobileNetV2_ -model developed by Google AI. Besides finetuning parameters, I also expanded the MobileNetV2-model by adding three layers on top; an average pooling layer, a dropout layer (with 40% of the layer inputs set to 0) and, finally a classification layer. A large challenge in finetuning the model consists of preprocessing the images into a compatible format. To do this, I have taken inspiration from my self-assigned project, where I define a function that can easily convert any image into a format compatible with a CNN-architecture. I converted all the paintings to 224x224 images, since this is what the model was originally trained on. I used argparse to enable the user to specify the number of training epochs from the terminal. Note that my script uses the same data for validation and testing.
+
 <!-- HOW TO RUN -->
 ## How to run
 
@@ -90,6 +97,21 @@ This repository contains the following files:
 ```cnn-artists.py``` | The python script for the assignment
 ```README.md``` | The README file that you are currently reading.
 
+<!-- DISCUSSION OF RESULTS -->
+## Discussion of results
+
+Using the CNN, I achieve a macro F1-score of 0.65 after training for 20 epochs. For the reasoning behind using macro F1-score as my evaluation metric, see section 2.3: Assignment 4 - Methods. The training curves show that the accuracy and loss for the validation data (i.e. training data) flattens after approximately 10 epochs (see _figure 2_). As such, I argue that more epochs would most likely not result in a better macro F1-score. Even though the results might not seem impressive, I argue that it is a very convincing performance for such a complex task.
+
+<br />
+<p align="center">
+  <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
+    <img src="../README_images/val_acc_ass_5_20_epochs.png" alt="Logo" width="300" height="102">
+  </a>
+
+<p align="center">
+Figure 2: Training curves for the MobileNetV2-model in assignment 5.
+
+  
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
