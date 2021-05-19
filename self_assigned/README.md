@@ -69,7 +69,7 @@ Go through the following steps to run the assignment:
 This repository contains the following folder (before downloading data):
 |File|Description|
 |:--------|:-----------|
-[```raw_data```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/self_assigned/raw_data) | A folder with all the 398 Monet images and 25 handpicked content-images depicting French landscapes. 
+[```raw_data/```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/self_assigned/raw_data) | A folder with all the 398 Monet images and 25 handpicked content-images depicting French landscapes. 
 
 Furthermore, it also contains the following files:
 |File|Description|
