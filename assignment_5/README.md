@@ -105,7 +105,7 @@ Using the CNN, I achieve a macro F1-score of 0.65 after training for 20 epochs. 
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
-    <img src="../README_images/val_acc_ass_5_20_epochs.png" alt="Logo" width="300" height="102">
+    <img src="../README_images/val_acc_ass_5_20_epochs.png" alt="Logo">
   </a>
 
 <p align="center">
