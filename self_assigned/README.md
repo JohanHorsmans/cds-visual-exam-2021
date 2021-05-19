@@ -96,7 +96,7 @@ The "homemade" CNN-model (henceforth referred to as model 1) yielded a macro F1-
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
-    <img src="../README_images/model1.jpg" alt="Logo">
+    <img src="../README_images/model1.JPG" alt="Logo">
   </a>
 
 <p align="center">
@@ -106,7 +106,7 @@ Figure 4: Training curves for model1 in the self-assigned project
 <br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
-    <img src="../README_images/model2.jpg" alt="Logo">
+    <img src="../README_images/model2.JPG" alt="Logo">
   </a>
 
 <p align="center">
