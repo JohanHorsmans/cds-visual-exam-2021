@@ -23,7 +23,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#project-info">Project info</a></li>
-    <li><a href="#setting-up-virtual-environment-and-downloading-data">Setting Up Virtual Environment And Downloading Data</a></li>
+    <li><a href="#setting-up-virtual-environment-and-downloading-data">Setting up virtual environment and downloading data</a></li>
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
     <li>
       <a href="#portfolio-assignments">Portfolio assignments</a>
