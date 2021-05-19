@@ -13,7 +13,7 @@ Creating and classifying fake art</h3>
   <p align="center">
     Johan Kresten Horsmans
     <br />
-    <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021/Visual_Analytics_Exam.pdf"><strong>Link to PDF with all portfolio descriptions »</strong></a>
+    <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021/blob/main/Visual_Analytics_Exam.pdf"><strong>Link to PDF with all portfolio descriptions »</strong></a>
     <br />
   </p>
 </p>
