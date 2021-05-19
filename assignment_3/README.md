@@ -21,9 +21,11 @@
   <summary>Table of Contents</summary>
   <ol>
     <li><a href="#official-description-from-instructor">Official description from instructor</a></li>
+    <li><a href="#methods">Methods</a></li>
     <li><a href="#how-to-run">How to run</a></li>
     <li><a href="#repository-structure-and-contents">Repository structure and contents</a></li>
     <li><a href="#data">Data</a></li>
+    <li><a href="#discussion-of-results">Discussion of results</a></li>
   </ol>
 </details>
 
@@ -73,6 +75,11 @@ This assignment is designed to test that you have a understanding of:
 * how to perform edge detection;
 * how to combine these skills in order to find specific features in an image
 
+<!-- METHODS -->
+## Methods
+
+The problem in this assignment relates to preprocessing images and then extracting specific features/edges in the image. To solve the task, I started by preprocessing the image with various cv2-functions. To find the edges, I used the _findContours_-function from cv2. As an added bonus, I also used pytesseract to convert the text in the image to a string and print the text in the terminal. To solve the bonus assignment, I used argparse to enable the user to specify arguments from the terminal. With argparse, I made it possible for the user to specify their own image path with an argument called --custom. In the data-folder in the repository, I included an image titled "Pure_text.png" which the user can use to test the --custom function.
+
 <!-- HOW TO RUN -->
 ## How to run
 
@@ -110,6 +117,31 @@ The data-folder contains the following files:
 |:--------|:-----------|
 WHTT.jpg | An image of a wall with the declaration of independence inscribed. Default image for the script.
 Pure_text.png | An image with text saying "Pure Text". Can be used to test the --CUSTOM argument in the function.
+
+<!-- DISCUSSION OF RESULTS -->
+## Discussion of results
+
+The contours drawn on the image were quite good (see _figure 1_). Nonetheless, we can see that it has not
+succeeded in exclusively capturing the letters since it also has drawn contours on the brick-lines in the wall
+where the text is inscribed. When testing the --custom argument, I experimented with drawing contours on
+a lot of different images where it also achieved the same level of performance. As such, I believe that my
+solution is quite robust. Furthermore, my script is fairly successful in converting the image to a string as
+seen by the following output where there are only a few errors:
+
+_"we hold these truths to be self evident that all men are created equal that they are endowed by their creator
+with certain inalienable rights among these are life liberty and the pursuit of happiness that to securethese
+rights governments are instituted among men we solemnly publish and declare that these colonies are and of
+right ought to be free and independent states and for the support of this declaration with a firm reliance on
+the protection of divine providence we mutually pledge our lives our fortunes and our sacred honour we"._
+
+
+<br />
+<p align="center">
+  <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
+    <img src="../README_images/image_letters.jpg" alt="Logo">
+  </a>
+
+
 
 <br />
 <p align="center">
