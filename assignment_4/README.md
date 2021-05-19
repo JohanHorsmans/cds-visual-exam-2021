@@ -104,7 +104,7 @@ This repository contains the following files:
 <!-- DISCUSSION OF RESULTS -->
 ## Discussion of results
 
-For the neural network model, I achieved a macro F1-score of 0.89 after training for 50 epochs. For the logistic regression model, I achieved a macro F1-score of 0.91 using a tolerance of 0.1 and no penalty. When testing the models with custom image-files the performance dropped drastically indicating that the models are overfitting to the specifics of the MNIST-dataset, leading to low generalizability. 
+For the neural network model (with default parameters), I achieved a macro F1-score of 0.89 after training for 50 epochs. For the logistic regression model, I achieved a macro F1-score of 0.91 using a tolerance of 0.1 and no penalty. When testing the models with custom image-files the performance dropped drastically indicating that the models are overfitting to the specifics of the MNIST-dataset, leading to low generalizability. 
 
 <br />
 <p align="center">
