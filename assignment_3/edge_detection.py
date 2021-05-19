@@ -51,12 +51,12 @@ def main(image_path):
     # Use canny edge detection:
     canny = cv2.Canny(blurred, 80, 150) # Parameters specified through trial and error.
     
-    # Find contours and save them as "contours":
+    # Find contours and save them as a variable named "contours":
     (contours, _) = cv2.findContours(canny.copy(), 
                  cv2.RETR_EXTERNAL,
                  cv2.CHAIN_APPROX_SIMPLE)
     
-    # Draw contours on cropped image and save the new image as "image_contour":
+    # Draw contours on cropped image and save the new image as a variable named "image_contour":
     image_contour = cv2.drawContours(image.copy(), # Draw contours on copy of original image
                                    contours, # Our list of contours
                                    -1, # Which contours to draw
@@ -66,7 +66,7 @@ def main(image_path):
     print("[INFO]: Writing \"image_letters.jpg\" to the \"data\"-folder")
     
     # Writing image-file:
-    filepath, _ = os.path.split(image_path) # Specifying that the image should be saved in the same folder as specified in the image_path
+    filepath, _ = os.path.split(image_path) # Specifying that the image should be written in the same folder as specified in the image_path
     outfile = os.path.join(filepath, "image_letters.jpg") # Specifying that the image should be titled "image_letter.jpg"
     cv2.imwrite(outfile, image_contour) # Write file
     
@@ -78,19 +78,19 @@ def main(image_path):
     # Use canny edge detection:
     canny = cv2.Canny(thres, 80, 150) # Parameters specified through trial and error.
     
-    # Find contours and save them as "contours":
+    # Find contours and save them as a variable named "contours":
     (contours, _) = cv2.findContours(canny.copy(), 
                      cv2.RETR_EXTERNAL,
                      cv2.CHAIN_APPROX_SIMPLE)
     
-    # Draw contours on thresholded image and save the new image as "image_contour_ocr":
+    # Draw contours on thresholded image and save the new image as a variable named "image_contour_ocr":
     image_contour_ocr = cv2.drawContours(thres.copy(), # Draw contours on copy of thresholded image
                                        contours, # Our list of contours
                                        -1, # Which contours to draw
                                        (0,0,200), # Contour colour (red)
                                        2) # Contour pixel width
     
-    # Use pytesseract to read text and save it as "text":
+    # Use pytesseract to read text and save it as a variable named "text":
     text = pytesseract.image_to_string(image_contour_ocr)
     
     # Define spellcheck function:
