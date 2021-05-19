@@ -141,10 +141,8 @@ the protection of divine providence we mutually pledge our lives our fortunes an
     <img src="../README_images/image_letters.jpg" alt="Logo">
   </a>
 
-
-My ![alt attribute goes here!](../README_images/image_letters.jpg "This is a Title" )
-
-  
+<p align="center">
+Figure 1: The final contours drawn on the image.
 
 <br />
 <p align="center">
