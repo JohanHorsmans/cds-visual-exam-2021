@@ -93,6 +93,7 @@ Furthermore, it also contains the following files:
 ## Discussion of results
 The "homemade" CNN-model (henceforth referred to as model 1) yielded a macro F1-score of 0.64 after training for 50 epochs. By comparison the pretrained MobileNetV2-model achieved a macro F1-score of 0.99 after only 10 epochs of training. As such, it greatly outperforms the initial model on both performance and efficiency. The training- loss and accuracy for model 1 (see figure 4 ), does not seem to flatten, suggesting that more training epochs could potentially improve results. For both models the accuracy for the validation data (i.e. testing data) is higher than the accuracy for the training data. This is true for nearly all epochs (see figure 4 and 5 ). I argue that this is most likely due to the dropout layer at the end of both models since, when training, 60% of the features are set to 0 whereas, in testing, all features are active and utilized. It seems plausible that this would be the reason behind the more robust classification of the testing data. I tried both removing the dropout-layer and making it less conservative. For both models, this resulted in a performance decrease.
 
+<br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
     <img src="../README_images/model1.jpg" alt="Logo">
@@ -102,6 +103,7 @@ The "homemade" CNN-model (henceforth referred to as model 1) yielded a macro F1-
 
 Figure 4: Training curves for model1 in the self-assigned project
 
+<br />
 <p align="center">
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
     <img src="../README_images/model2.jpg" alt="Logo">
