@@ -100,7 +100,6 @@ The "homemade" CNN-model (henceforth referred to as model 1) yielded a macro F1-
   </a>
 
 <p align="center">
-
 Figure 4: Training curves for model1 in the self-assigned project
 
 <br />
@@ -110,7 +109,6 @@ Figure 4: Training curves for model1 in the self-assigned project
   </a>
 
 <p align="center">
-
 Figure 5: Training curves for the MobileNetV2-model in the self-assigned project
 
 <br />
