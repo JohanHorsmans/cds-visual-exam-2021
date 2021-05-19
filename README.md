@@ -79,8 +79,8 @@ This repository contains the following folders:
 |Folder|Description|
 |:--------|:-----------|
 ```README_images/```| Folder containing the images in this README-file
-```assignment_.*/``` | Folders containing code and data for the three assignments
-```self_assigned/``` | Folder containing code and data for the self-assigned project
+```assignment_.*/``` | Folders containing code, data and usage-instructions for the three assignments
+```self_assigned/``` | Folder containing code, data and usage-instructions for the self-assigned project
 ```utils/``` | Folder containing utility functions written by our teacher, [Ross Deans Kristensen-McLachlan](https://pure.au.dk/portal/en/persons/ross-deans-kristensenmclachlan(29ad140e-0785-4e07-bdc1-8af12f15856c).html), which are employed in some of the assignments.
 
 Furthermore, it holds the following files:
@@ -144,7 +144,7 @@ Distributed under the [Apache License 2.0](https://www.apache.org/licenses/LICEN
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Ross Dean McLachlan](https://pure.au.dk/portal/en/persons/ross-deans-kristensenmclachlan(29ad140e-0785-4e07-bdc1-8af12f15856c).html) - Our teacher for the Visual Analytics course
-* [Emil Jessen](https://github.com/emiltj) - With whom I have collaborated in creating this README structure and brainstormed ideas for the self assigned project.
+* [Emil Jessen](https://github.com/emiltj) - With whom I have collaborated in creating this README structure and brainstormed ideas for the self-assigned project.
 
 <!-- CONTACT -->
 ## Contact
