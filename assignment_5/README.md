@@ -100,7 +100,7 @@ This repository contains the following files:
 <!-- DISCUSSION OF RESULTS -->
 ## Discussion of results
 
-Using the CNN, I achieve a macro F1-score of 0.65 after training for 20 epochs. For the reasoning behind using macro F1-score as my evaluation metric, see section [Assignment 4 - Methods](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/assignment_4). The training curves show that the accuracy and loss for the validation data (i.e. training data) flattens after approximately 10 epochs (see _figure 2_). As such, I argue that more epochs would most likely not result in a better macro F1-score. Even though the results might not seem impressive, I argue that it is a very convincing performance for such a complex task.
+Using the CNN, I achieve a macro F1-score of 0.65 after training for 20 epochs. For the reasoning behind using macro F1-score as my evaluation metric, see section [Assignment 4 - Methods](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/assignment_4#methods). The training curves show that the accuracy and loss for the validation data (i.e. training data) flattens after approximately 10 epochs (see _figure 2_). As such, I argue that more epochs would most likely not result in a better macro F1-score. Even though the results might not seem impressive, I argue that it is a very convincing performance for such a complex task.
 
 <br />
 <p align="center">
