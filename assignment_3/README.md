@@ -78,7 +78,7 @@ This assignment is designed to test that you have a understanding of:
 <!-- METHODS -->
 ## Methods
 
-The problem in this assignment relates to preprocessing images and then extracting specific features/edges in the image. To solve the task, I started by preprocessing the image with various cv2-functions. To find the edges, I used the _findContours_-function from cv2. As an added bonus, I also used pytesseract to convert the text in the image to a string and print the text in the terminal. To solve the bonus assignment, I used argparse to enable the user to specify arguments from the terminal. With argparse, I made it possible for the user to specify their own image path with an argument called --image_path. In the data-folder in the repository, I included an image titled "Pure_text.png" which the user can use to test the --image_path function.
+The problem in this assignment relates to preprocessing images and then extracting specific features/edges in the image. To solve the task, I started by preprocessing the image with various cv2-functions. To find the edges, I used the _findContours_-function from cv2. As an added bonus, I also used pytesseract to convert the text in the image to a string and print the text in the terminal. To solve the bonus assignment, I used argparse to enable the user to specify arguments from the terminal. With argparse, I made it possible for the user to specify their own image path with an argument called --image_path. In the data-folder in the repository, I included an image titled "Pure_text.png" which the user can use to test the --image_path argument.
 
 <!-- HOW TO RUN -->
 ## How to run
@@ -116,7 +116,7 @@ The data-folder contains the following files:
 |File|Description|
 |:--------|:-----------|
 WHTT.jpg | An image of a wall with the declaration of independence inscribed. Default image for the script.
-Pure_text.png | An image with text saying "Pure Text". Can be used to test the --image_path argument in the function.
+Pure_text.png | An image with text saying "Pure Text". Can be used to test the --image_path argument in the script.
 
 <!-- DISCUSSION OF RESULTS -->
 ## Discussion of results
