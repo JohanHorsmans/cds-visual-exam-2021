@@ -35,22 +35,30 @@ Creating and classifying fake art</h3>
 
 __Creating fake Monet-images with style transfer and classifying them with CNN's:__
 
-For my self-assigned project, I have created a notebook with a pipeline consisting of the following steps:
+For my self-assigned project, I wish to see if I can use style-transferring to create fake Monet-paintings out of landscape pictures. Furthermore, I want to test if these images are believable enough to trick a CNN-image classifier into classifying them as real Monet-paintings. I have decided to turn in my project as a Jupyter Notebook, since there is a great emphasis on visualizations throughout. Furthermore, the code is not intended to be used for other purposes. Therefore, I deemed it to be the most beneficial format for my project. As such, it is a deliberate choice that I have not converted it to as a .py-script and not a case of lacking abilities.
+
+The notebook consists of the following steps (in rough terms):
 
 1. Creating fake Monet-images out of landscape images using style transfer.
-    - The dataset used for the Monet-images (i.e. style-images) is the following: https://www.kaggle.com/delayedkarma/impressionist-classifier-data. I have manually removed the image titled _"9223372032559844173.jpg"_, since it was corrupt.
-    - The dataset used for landscape-images (i.e. content-images) is the following: https://www.kaggle.com/arnaud58/landscape-pictures
+    - The dataset used for the Monet-images (i.e. style-images) is the following: [_Impressionist Classifier Data_](https://www.kaggle.com/delayedkarma/impressionist-classifier-data). I have manually removed the image titled _"9223372032559844173.jpg"_, since it was corrupt.
+    - The dataset used for landscape-images (i.e. content-images) is the following: [_Landscape picture_](https://www.kaggle.com/arnaud58/landscape-pictures)
 2. Saving the fake images.
 3. Splitting the data into a testing- and training dataset (containing real- and fake images).
 4. Preprocessing the images into a consistent format compatible with a CNN classifier.
-5. Building a CNN-classifier from scratch.
+5. Building and training a CNN-classifier from scratch.
 6. Classifying testing data with the CNN-classifier.
 7. Fine-tuning a pretrained _MobileNetV2_ model.
 8. Using the fine-tuned model to classify testing data.
 
 <!-- METHODS -->
 ## Methods
-The task is a two-part problem. First, one needs to create a model for carrying out the style transfer and second, one needs to build a classifier capable of distinguishing between the real- and "fake" images. To address the first problem, I initially experimented with using a [_VGG19_](https://www.tensorflow.org/tutorials/generative/style_transfer)-model, but it took 50 minutes per image (see figure 1), rendering the task practically undoable. Instead, I used the [_magenta/arbitrary-image-stylization-v1-256 model_](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2) from tensorflow hub which was a lot more efficient and produced nearly as good results. For the second task I first developed a CNN from scratch. This generated mediocre results so I wanted to see if I could find a better and more efficient classifier. To do so I utilized the pretrained [_MobileNetV2_](https://ai.googleblog.com/2018/04/mobilenetv2-next-generation-of-on.html) model. Both CNN-models and their predictions are included in the notebook.
+The task is a two-part problem. First, one needs to create a model for carrying out the style transfer and second, one needs to build a classifier capable of distinguishing between the real- and "fake" images. To address the first problem, I initially experimented with using a [_VGG19_](https://www.tensorflow.org/tutorials/generative/style_transfer)-model, but it took approximately 1.5 hour per style-transferred image, rendering the task practically undoable. Instead, I used the [_magenta/arbitrary-image-stylization-v1-256 model_](https://tfhub.dev/google/magenta/arbitrary-image-stylization-v1-256/2)-model from tensorflow hub. This model was a lot more efficient and produced mostly convincing results that I deemed to be only moderately worse compared to the VGG19-model (see comparison in _figure 3_). Both models took only a single content- and style image per style transfer. For the classification task, I first developed a CNN from scratch. This generated mediocre results so I wanted to see if I could find a better and more efficient classifier. To do so I utilized the pretrained [_MobileNetV2_](https://ai.googleblog.com/2018/04/mobilenetv2-next-generation-of-on.html)-model. Both CNN-models and their predictions are included in the notebook. Note that my notebook uses the same data for validation and testing.
+
+<br />
+<p align="center">
+  <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
+    <img src="../README_images/Styletrans_comparison.jpg" alt="Logo">
+  </a>
 
 <!-- HOW TO RUN -->
 ## How to run
