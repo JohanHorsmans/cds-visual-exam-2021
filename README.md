@@ -31,7 +31,7 @@
         <li><a href="#assignment-3---edge-detection">Assignment 3 - Edge detection</a></li>
         <li><a href="#assignment-4---logistic-regression-and-neural-network-benchmark-mnist-classification">Assignment 4 - Logistic Regression and Neural Network benchmark mnist classification</a></li>
         <li><a href="#assignment-5---cnn-classification-of-impressionist-paintings">Assignment 5 - CNN classification of impressionist paintings</a></li>
-        <li><a href="#self-assigned-project---creating-fake-monet-images-with-style-transfer-and-classifying-them-with-cnn's">Self assigned project - Creating fake Monet-images with style transfer and classifying them with CNN's</a></li>
+        <li><a href="#self-assigned-project---creating-fake-monet-images-with-style-transfer-and-classifying-them-with-cnn's>Self-assigned project - Creating fake Monet-images with style transfer and classifying them with CNN's</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -127,7 +127,7 @@ Type: ```python3 cnn-artists.py -h``` for a detailed guide on how to specify scr
 
 For more information, see [```assignment_5/README.md```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/assignment_5)
 
-### Self assigned project - Creating fake Monet-images with style transfer and classifying them with CNN's
+### Self-assigned project - Creating fake Monet-images with style transfer and classifying them with CNN's
 
 To run the self-assigned assignment, go the the "self_assigned.ipynb"-notebook in the "self_assigned"-folder.
 
