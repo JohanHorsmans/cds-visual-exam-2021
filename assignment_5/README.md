@@ -109,7 +109,7 @@ Using the CNN, I achieve a macro F1-score of 0.65 after training for 20 epochs. 
   </a>
 
 <p align="center">
-Figure 2: Training curves for the MobileNetV2-model in assignment 5.
+Figure 1: Training curves for the MobileNetV2-model in assignment 5.
 
   
 <br />
