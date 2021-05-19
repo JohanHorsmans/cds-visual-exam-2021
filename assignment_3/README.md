@@ -124,7 +124,7 @@ Pure_text.png | An image with text saying "Pure Text". Can be used to test the -
 The contours drawn on the image were quite good (see _figure 1_). Nonetheless, we can see that it has not
 succeeded in exclusively capturing the letters since it also has drawn contours on the brick-lines in the wall
 where the text is inscribed. When testing the --image_path argument, I experimented with drawing contours on
-a lot of different images where it also achieved the same level of performance. As such, I believe that my
+a lot of different images where it also achieved similar levels of performance. As such, I believe that my
 solution is quite robust. Furthermore, my script is fairly successful in converting the image to a string as
 seen by the following output where there are only a few errors:
 
