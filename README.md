@@ -55,9 +55,9 @@ The assignments included in this portfolio are the following:
 <!-- HOW TO RUN -->
 ## Setting Up Virtual Environment And Downloading Data
 
-To run the assignments, you need to go through the following steps in your bash-terminal to download the needed data and configure a virtual environment on Worker02 (or your local machine) with the needed prerequisites for all assignments. 
+To run the assignments, you need to go through the following steps in your bash-terminal to download the needed data and configure a virtual environment with the needed prerequisites for all assignments.
 
-__NOTE:__ The code below will only work for Linux, OSX and Worker02:
+__NOTE:__ The code and scripts below will only work for Linux, OS X and Worker02:
 
 ```bash
 cd {directory where you want the assignment saved}
@@ -70,6 +70,9 @@ bash data_download.sh
 
 <!-- REPOSITORY STRUCTURE AND CONTENTS -->
 ## Repository structure and contents
+
+__NOTE:__ Throughout the repository's README-files (including this one), the repository structure is described as it appears before downloading the
+additional data specified in the bash-script above.
 
 This repository contains the following folders:
 
