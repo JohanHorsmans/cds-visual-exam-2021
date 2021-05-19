@@ -44,7 +44,6 @@ def str2bool(v):
     else:
         raise argparse.ArgumentTypeError('Boolean value expected.')
 
-
 # Define function argument defaults and how to specify them from the terminal:
 ap = argparse.ArgumentParser(description = "[DESCRIPTION]: A function to classify images of numbers (from 0 - 9) with a neural network classifier. The following parameters can be specified, but you can also run the code with default parameters:")
 
@@ -55,20 +54,23 @@ type = int, help = "integer, specify amount of layers and their size (between th
 
 ap.add_argument("-s", "--save", type=str2bool, nargs='?', const=True, default=True, help = "boolean, whether or not the fitted neural network model should be saved [DEFAULT]: True")
 
-ap.add_argument("-c", "--custom", default = 0, type = str, help = "string, the path to a custom image that you would like to classify. [DEFAULT]: 0")
+ap.add_argument("-c", "--custom", default = 0, type = str, help = "string, the path to a custom image that you would like to classify. Set to 0 to use the mnist data. Be wary of difference in operating systems in terms of specifying path with \" / \" or \" \ \". [DEFAULT]: 0")
 
-ap.add_argument("-e", "--epoch", default = 50, type = int, help = "integer, the amount of epochs you wish to run when fitting the model [DEFAULT]: 50")
+ap.add_argument("-e", "--epoch", default = 50, type = int, help = "integer, the amount of epochs you wish to run when training the model [DEFAULT]: 50")
 
 # Parse the arguments
 args = vars(ap.parse_args())
 
 # Define the main function of the script and what parameters it takes: 
 def main(filename, layers, save, custom, epoch):
+    
     print("[INFO]: Loading mnist-data")
+    
     # Loading the mnist dataset:
     X, y = fetch_openml('mnist_784', version=1, return_X_y=True) # X = pixel values, y = class (i.e. number depicted).
     
     print("[INFO]: Preprocessing data")
+    
     # Convert to numpy array:
     X = np.array(X)
     y = np.array(y)
@@ -78,7 +80,7 @@ def main(filename, layers, save, custom, epoch):
                                                         y, 
                                                         random_state=9, # Making the split replicable.
                                                         train_size=20000, # Specify that the training set should contain 20000 images.
-                                                        test_size=2000) # Specify that the testing set should contain 2500 images.
+                                                        test_size=2500) # Specify that the testing set should contain 2500 images.
     
     # Scale the image pixels from a range of [0:255] to [0:1].
     # The point of this is to even out the influence of pixel intensity range, since we are more interested in contour rather than contrast:
@@ -95,14 +97,17 @@ def main(filename, layers, save, custom, epoch):
     
     # Define the network as "nn":
     nn = NeuralNetwork(layers)
+    
     print("[INFO]: structure of the network: {}".format(nn)) #Sanity check for the user.
     
     print("[INFO]: Fitting neural network")
+    
     # Fit the network to the training data with the specified amount of epochs:
     nn.fit(X_train_scaled, y_train, epochs=epoch)
     
     print("[INFO]: Predicting test data")
-    # Predict the classes of the testing data and save it in an object calld "predictions":
+    
+    # Predict the classes of the testing data and save it in as a variable named "predictions":
     predictions = nn.predict(X_test_scaled)
     
     # Convert the predictions from individual probabilities for each class to a single binary prediction for the most probable class:
@@ -151,12 +156,12 @@ def main(filename, layers, save, custom, epoch):
         # Converting the flattened compressed image to array
         compressed_flattened = np.array(compressed_flattened)
         
-        # Scale the pixel-size of the custom image to be the same as the mnist dataset.
+        # Scale the pixel-size of the custom image to be the same as the MNIST dataset.
         scaler = MinMaxScaler()
         scaler = scaler.fit(X_train)
         compressed_flattened = pd.DataFrame(scaler.transform([compressed_flattened]))
         
-        # # Predict the class of the custom image with the previously fitted model:
+        # Predict the class of the custom image with the previously fitted model:
         custom_pred = nn.predict(compressed_flattened)
         
         # Save the most probable class as a binary prediction:
