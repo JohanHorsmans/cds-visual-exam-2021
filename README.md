@@ -55,7 +55,7 @@ The assignments included in this portfolio are the following:
 <!-- HOW TO RUN -->
 ## Setting Up Virtual Environment And Downloading Data
 
-To run the assignments, you need to go through the following steps in your bash-terminal to download the needed data and configure a virtual environment on Worker02 (or your local machine) with the needed prerequisites for all assignments:
+To run the assignments, you need to go through the following steps in your bash-terminal to download the needed data and configure a virtual environment on Worker02 (or your local machine) with the needed prerequisites for all assignments. __NOTE:__ The code will only work for Linux, OSX and Worker02:
 
 ```bash
 cd {directory where you want the assignment saved}
