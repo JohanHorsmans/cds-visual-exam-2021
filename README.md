@@ -31,7 +31,7 @@
         <li><a href="#assignment-3---edge-detection">Assignment 3 - Edge detection</a></li>
         <li><a href="#assignment-4---logistic-regression-and-neural-network-benchmark-mnist-classification">Assignment 4 - Logistic Regression and Neural Network benchmark mnist classification</a></li>
         <li><a href="#assignment-5---cnn-classification-of-impressionist-paintings">Assignment 5 - CNN classification of impressionist paintings</a></li>
-        <li><a href="#self-assigned-assignment">self-assigned assignment</a></li>
+        <li><a href="#self-assigned-project">self-assigned project</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
@@ -50,14 +50,14 @@ The assignments included in this portfolio are the following:
 * Assignment 3 - _Edge detection_
 * Assignment 4 - _Logistic Regression and Neural Network benchmark mnist classification_
 * Assignment 5 - _CNN classification of impressionist paintings_
-* Self-assigned - _something fucking sick_
+* Self-assigned project - __Creating fake Monet-images with style transfer and classifying them with CNN’s__
 
 <!-- HOW TO RUN -->
 ## Setting Up Virtual Environment And Downloading Data
 
 To run the assignments, you need to go through the following steps in your bash-terminal to download the needed data and configure a virtual environment on Worker02 (or your local machine) with the needed prerequisites for all assignments. 
 
-__NOTE:__ The code will only work for Linux, OSX and Worker02:
+__NOTE:__ The code below will only work for Linux, OSX and Worker02:
 
 ```bash
 cd {directory where you want the assignment saved}
@@ -127,7 +127,7 @@ Type: ```python3 cnn-artists.py -h``` for a detailed guide on how to specify scr
 
 For more information, see [```assignment_5/README.md```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/assignment_5)
 
-### Self-assigned assignment
+### Self-assigned project - Creating fake Monet-images with style transfer and classifying them with CNN’s
 
 To run the self-assigned assignment, go the the "self_assigned.ipynb"-notebook in the "self_assigned"-folder.
 
