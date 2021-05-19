@@ -26,28 +26,15 @@ import pandas as pd
 # Import cv2 for working with images:
 import cv2
 
-# Import argparse to specify arguments in the script from the commandline.
+# Import argparse to specify arguments in the script from the commandline:
 import argparse
-
-#TEST 
-def str2bool(v):
-    if isinstance(v, bool):
-       return v
-    if v.lower() in ('yes', 'true', 't', 'y', '1'):
-        return True
-    elif v.lower() in ('no', 'false', 'f', 'n', '0'):
-        return False
-    else:
-        raise argparse.ArgumentTypeError('Boolean value expected.')
-##
-
 
 # Define function argument defaults and how to specify them from the terminal:
 ap = argparse.ArgumentParser(description = "[DESCRIPTION]: A function to classify images of numbers (from 0 - 9) with a logistic regression model. The following parameters can be specified, but you can also run the code with default parameters:")
 
 ap.add_argument("-f", "--filename", default = "metrics_lr", type = str, help = "string, name of the file with evaluation metrics produced by the script. [DEFAULT]: metrics_lr")
 
-ap.add_argument("-c", "--custom", default = 0, type = str, help = "string, the path to a custom image that you would like to classify. Set to 0 for using the mnist data. Be weary of difference in operating systems in terms of spcifying path with \" / \" or \" \ \". [DEFAULT]: 0")
+ap.add_argument("-c", "--custom", default = 0, type = str, help = "string, the path to a custom image that you would like to classify. Set to 0 to use the mnist data. Be weary of difference in operating systems in terms of spcifying path with \" / \" or \" \ \". [DEFAULT]: 0")
 
 ap.add_argument("-t", "--tolerance", default = 0.1, type = float, help = "float, tolerance for stopping criteria for logistic regression model. [DEFAULT]: 0.1")
 
@@ -58,11 +45,14 @@ args = vars(ap.parse_args())
 
 # Define the main function of the script and what parameters it takes: 
 def main(filename, custom, penalty, tolerance):
+    
     print("[INFO]: Loading mnist-data")
+    
     # Loading the mnist dataset:
     X, y = fetch_openml('mnist_784', version=1, return_X_y=True) # X = pixel values, y = class (i.e. number depicted).
     
     print("[INFO]: Preprocessing data")
+    
     # Convert to numpy array:
     X = np.array(X)
     y = np.array(y)
@@ -80,17 +70,18 @@ def main(filename, custom, penalty, tolerance):
     X_test_scaled = X_test/255.0
     
     print("[INFO]: Fitting logistic regression model")
+    
     # Fit a logistic regression model to the training data:
     clf = LogisticRegression(penalty = penalty, # Penalty-type (specified from command-line).
-                            tol = tolerance, # Tolerance for stopping criteria for the model.
+                            tol = tolerance, # Tolerance for stopping criteria for the model (specified from command-line).
                             solver = 'saga', # Specify optimization algortihm.
-                            multi_class = 'multinomial').fit(X_train_scaled, y_train) # Specify that the data ha multiple classes.
+                            multi_class = 'multinomial').fit(X_train_scaled, y_train) # Specify that the data has multiple classes.
     
     print("[INFO]: Predicting test data")
-    # Predict the classes in the test data, with fhe fitted model and save them in an object called "y_pred":
+    # Predict the classes in the test data with the fitted model and save them as a variable named "y_pred":
     y_pred = clf.predict(X_test_scaled)
     
-    # Create a classification matrix with various metrics and save it as "cm":
+    # Create a classification matrix with various metrics and save it as a variable named "cm":
     cm = metrics.classification_report(y_test, y_pred)
     
     # Print the classification matrix in the terminal:
