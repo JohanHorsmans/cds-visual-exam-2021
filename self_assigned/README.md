@@ -59,7 +59,13 @@ The task is a two-part problem. First, one needs to create a model for carrying 
   <a href="https://github.com/JohanHorsmans/cds-visual-exam-2021">
     <img src="../README_images/Styletrans_comparison.jpg" alt="Logo">
   </a>
+ 
+<p align="center">
 
+Figure 3: Comparison of the style-transferred output produced by the VGG19-model (left) and the arbitrary-image-stylization-v1-256-model (right).
+
+<\p>
+  
 <!-- HOW TO RUN -->
 ## How to run
 
