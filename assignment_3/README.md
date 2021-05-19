@@ -78,7 +78,7 @@ This assignment is designed to test that you have a understanding of:
 <!-- METHODS -->
 ## Methods
 
-The problem in this assignment relates to preprocessing images and then extracting specific features/edges in the image. To solve the task, I started by preprocessing the image with various cv2-functions. To find the edges, I used the _findContours_-function from cv2. As an added bonus, I also used pytesseract to convert the text in the image to a string and print the text in the terminal. To solve the bonus assignment, I used argparse to enable the user to specify arguments from the terminal. With argparse, I made it possible for the user to specify their own image path with an argument called --custom. In the data-folder in the repository, I included an image titled "Pure_text.png" which the user can use to test the --custom function.
+The problem in this assignment relates to preprocessing images and then extracting specific features/edges in the image. To solve the task, I started by preprocessing the image with various cv2-functions. To find the edges, I used the _findContours_-function from cv2. As an added bonus, I also used pytesseract to convert the text in the image to a string and print the text in the terminal. To solve the bonus assignment, I used argparse to enable the user to specify arguments from the terminal. With argparse, I made it possible for the user to specify their own image path with an argument called --image_path. In the data-folder in the repository, I included an image titled "Pure_text.png" which the user can use to test the --image_path function.
 
 <!-- HOW TO RUN -->
 ## How to run
@@ -116,14 +116,14 @@ The data-folder contains the following files:
 |File|Description|
 |:--------|:-----------|
 WHTT.jpg | An image of a wall with the declaration of independence inscribed. Default image for the script.
-Pure_text.png | An image with text saying "Pure Text". Can be used to test the --CUSTOM argument in the function.
+Pure_text.png | An image with text saying "Pure Text". Can be used to test the --image_path argument in the function.
 
 <!-- DISCUSSION OF RESULTS -->
 ## Discussion of results
 
 The contours drawn on the image were quite good (see _figure 1_). Nonetheless, we can see that it has not
 succeeded in exclusively capturing the letters since it also has drawn contours on the brick-lines in the wall
-where the text is inscribed. When testing the --custom argument, I experimented with drawing contours on
+where the text is inscribed. When testing the --image_path argument, I experimented with drawing contours on
 a lot of different images where it also achieved the same level of performance. As such, I believe that my
 solution is quite robust. Furthermore, my script is fairly successful in converting the image to a string as
 seen by the following output where there are only a few errors:
