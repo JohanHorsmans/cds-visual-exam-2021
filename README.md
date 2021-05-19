@@ -31,7 +31,7 @@
         <li><a href="#assignment-3---edge-detection">Assignment 3 - Edge detection</a></li>
         <li><a href="#assignment-4---logistic-regression-and-neural-network-benchmark-mnist-classification">Assignment 4 - Logistic Regression and Neural Network benchmark mnist classification</a></li>
         <li><a href="#assignment-5---cnn-classification-of-impressionist-paintings">Assignment 5 - CNN classification of impressionist paintings</a></li>
-        <li><a href="#self-assigned-project---creating-fake-monet-images-with-style-transfer-and-classifying-them-with-cnn's>Self-assigned project - Creating fake Monet-images with style transfer and classifying them with CNN's</a></li>
+        <li><a href="#self-assigned-project---creating-fake-monet-images-with-style-transfer-and-classifying-them-with-cnn's">Self-assigned project - Creating fake Monet-images with style transfer and classifying them with CNN's</a></li>
       </ul>
     </li>
     <li><a href="#license">License</a></li>
