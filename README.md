@@ -127,7 +127,7 @@ Type: ```python3 cnn-artists.py -h``` for a detailed guide on how to specify scr
 
 For more information, see [```assignment_5/README.md```](https://github.com/JohanHorsmans/cds-visual-exam-2021/tree/main/assignment_5)
 
-### Self-assigned project - Creating fake Monet-images with style transfer and classifying them with CNN’s
+### Self-assigned project - Creating fake Monet-images with style transfer and classifying them with CNN's
 
 To run the self-assigned assignment, go the the "self_assigned.ipynb"-notebook in the "self_assigned"-folder.
 
