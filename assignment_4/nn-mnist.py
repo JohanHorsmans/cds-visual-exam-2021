@@ -56,7 +56,7 @@ ap.add_argument("-s", "--save", type=str2bool, nargs='?', const=True, default=Tr
 
 ap.add_argument("-c", "--custom", default = 0, type = str, help = "string, the path to a custom image that you would like to classify. Set to 0 to use the mnist data. Be wary of difference in operating systems in terms of specifying path with \" / \" or \" \ \". [DEFAULT]: 0")
 
-ap.add_argument("-e", "--epoch", default = 50, type = int, help = "integer, the amount of epochs you wish to run when training the model [DEFAULT]: 50")
+ap.add_argument("-e", "--epochs", default = 50, type = int, help = "integer, the amount of epochs you wish to run when training the model [DEFAULT]: 50")
 
 # Parse the arguments
 args = vars(ap.parse_args())
