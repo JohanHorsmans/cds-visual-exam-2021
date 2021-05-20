@@ -37,7 +37,7 @@ warnings.filterwarnings('ignore')
 # Define function argument defaults and how to specify them from the terminal:
 ap = argparse.ArgumentParser(description = "[DESCRIPTION]: A script to classify artists from paintings. The following parameters can be specified, but you can also run the code with default parameters:")
 
-ap.add_argument("-e", "--epochs", default = "10", type = int, help = "string, name of the file with evaluation metrics produced by the script. [DEFAULT]: 10")
+ap.add_argument("-e", "--epochs", default = "10", type = int, help = "integer, the amount of epochs you wish to run when training the model [DEFAULT]: 10")
 
 # Parse the arguments
 args = vars(ap.parse_args())
