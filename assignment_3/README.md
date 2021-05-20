@@ -95,7 +95,7 @@ __You can specify the following optional argument from the terminal:__
 
 _Custom image path:_
 ```bash
--i --image_path
+"-i", "--image_path"
 default =  os.path.join("data","WHTT.jpg")
 type = str
 help = string, path to input file. Be weary of difference in operating systems in terms of spcifying path with  "/" or "\".
