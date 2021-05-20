@@ -91,7 +91,15 @@ cd {root directory (i.e. cds-visual-exam-2021}
 cd assignment_3
 python3 edge_detection.py
 ```
-Type: ```python3 edge_detection.py -h``` for a detailed guide on how to specify script-parameters. 
+__You can specify the following optional arguments from the terminal:__
+```bash
+-i 
+--image_path
+default =  os.path.join("data","WHTT.jpg")
+type = str
+help = string, path to input file. Be weary of difference in operating systems in terms of spcifying path with  "/" or "\".
+```
+You can also type: ```python3 edge_detection.py -h``` for a detailed guide on how to specify script-parameters. 
 
 <!-- REPOSITORY STRUCTURE AND CONTENTS -->
 ## Repository structure and contents
