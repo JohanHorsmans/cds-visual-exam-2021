@@ -106,7 +106,7 @@ _Custom image path:_
 "-c", "--custom"
 default = 0
 type = str
-help = "string, the path to a custom image that you would like to classify. Set to 0 to use the mnist data. Be weary of difference in operating systems in terms of spcifying path with "/" or "\".
+help = "string, the path to a custom image that you would like to classify. Set to 0 to use the mnist data. Be weary of difference in operating systems in terms of sepcifying path with "/" or "\".
 ```
 _Tolerance:_
 ```bash
@@ -138,7 +138,7 @@ _Layers:_
 "-l", "--layers" 
 default = [8, 16]
 nargs="*" # nargs specifies that it should convert the input to a list.
-type = int, help = "integer, specify amount of layers and their size (between the input and output layers):
+type = int, help = "integer, specify amount of layers and their size (between the input and output layers).
 ```
 
 _Save model:_
@@ -148,14 +148,14 @@ type=str2bool
 nargs='?'
 const=True
 default=True
-help = "boolean, whether or not the fitted neural network model should be saved
+help = "boolean, whether or not the fitted neural network model should be saved.
 ```
 _Custom image path:_
 ```bash
 "-c", "--custom"
 default = 0
 type = str
-help = "string, the path to a custom image that you would like to classify. Set to 0 to use the mnist data. Be weary of difference in operating systems in terms of spcifying path with "/" or "\".
+help = "string, the path to a custom image that you would like to classify. Set to 0 to use the mnist data. Be weary of difference in operating systems in terms of sepcifying path with "/" or "\".
 ```
 
 _Epochs:_
