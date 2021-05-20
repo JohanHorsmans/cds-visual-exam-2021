@@ -99,7 +99,7 @@ default =  os.path.join("data","WHTT.jpg")
 type = str
 help = string, path to input file. Be weary of difference in operating systems in terms of spcifying path with  "/" or "\".
 ```
-You can also type: ```python3 edge_detection.py -h``` for a detailed guide on how to specify script-parameters. 
+You can also type: ```python3 edge_detection.py -h``` for a detailed guide on how to specify script-arguments. 
 
 <!-- REPOSITORY STRUCTURE AND CONTENTS -->
 ## Repository structure and contents
