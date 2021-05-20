@@ -124,6 +124,7 @@ help = "str, penalization type for logistic regresion model. (For options, see: 
 ```
 
 __nn-mnist.py:__
+
 _Filename:_
 ```bash
 "-f", "--filename"
