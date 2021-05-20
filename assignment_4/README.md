@@ -160,7 +160,7 @@ help = "string, the path to a custom image that you would like to classify. Set 
 
 _Epochs:_
 ```bash
-"-e", "--epoch" 
+"-e", "--epochs" 
 default = 50
 type = int
 help = "integer, the amount of epochs you wish to run when training the model
