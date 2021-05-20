@@ -91,7 +91,7 @@ cd {root directory (i.e. cds-visual-exam-2021}
 cd assignment_3
 python3 edge_detection.py
 ```
-__You can specify the following optional arguments from the terminal:__
+__You can specify the following optional argument from the terminal:__
 ```bash
 -i 
 --image_path
