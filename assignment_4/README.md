@@ -92,6 +92,7 @@ python3 nn-mnist.py
 __You can specify the following optional argument from the terminal:__
 
 __lr-mnist.py:__
+
 _Filename:_
 ```bash
 "-f", "--filename"
