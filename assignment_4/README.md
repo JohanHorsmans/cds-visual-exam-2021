@@ -89,7 +89,81 @@ cd assignment_4
 python3 lr-mnist.py
 python3 nn-mnist.py
 ```
-Type: ```python3 lr-mnist.py -h``` and ```python3 nn-mnist.py -h``` for a detailed guide on how to specify script-parameters. 
+__You can specify the following optional argument from the terminal:__
+
+__lr-mnist.py:__
+_Filename:_
+```bash
+"-f", "--filename"
+default =  metrics_lr
+type = str
+help = "string, name of the file with evaluation metrics produced by the script.
+```
+
+_Custom image path:_
+```bash
+"-c", "--custom"
+default = 0
+type = str
+help = "string, the path to a custom image that you would like to classify. Set to 0 to use the mnist data. Be weary of difference in operating systems in terms of spcifying path with "/" or "\".
+```
+_Tolerance:_
+```bash
+"-t", "--tolerance"
+default = 0.1
+type = float
+help = "float, tolerance for stopping criteria for logistic regression model.
+```
+_Penalty:_
+```bash
+"-p", "--penalty" 
+default = 'none'
+type = str
+help = "str, penalization type for logistic regresion model. (For options, see: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html).
+```
+
+__nn-mnist.py:__
+_Filename:_
+```bash
+"-f", "--filename"
+default =  metrics_nn
+type = str
+help = "string, name of the file with evaluation metrics produced by the script.
+```
+
+_Layers:_
+```bash
+"-l", "--layers" 
+default = [8, 16]
+nargs="*" # nargs specifies that it should convert the input to a list.
+type = int, help = "integer, specify amount of layers and their size (between the input and output layers):
+```
+
+_Save model:_
+```bash
+"-s", "--save"
+type=str2bool 
+nargs='?'
+const=True
+default=True
+help = "boolean, whether or not the fitted neural network model should be saved
+```
+_Custom image path:_
+```bash
+"-c", "--custom"
+default = 0
+type = str
+help = "string, the path to a custom image that you would like to classify. Set to 0 to use the mnist data. Be weary of difference in operating systems in terms of spcifying path with "/" or "\".
+```
+
+_Epochs:_
+```bash
+"-e", "--epoch" 
+default = 50
+type = int
+help = "integer, the amount of epochs you wish to run when training the model
+```
+You can also type: ```python3 lr-mnist.py -h``` and ```python3 nn-mnist.py -h``` for a detailed guide on how to specify script-parameters. 
 
 <!-- REPOSITORY STRUCTURE AND CONTENTS -->
 ## Repository structure and contents
