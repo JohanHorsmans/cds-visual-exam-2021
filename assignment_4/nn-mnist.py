@@ -62,7 +62,7 @@ ap.add_argument("-e", "--epochs", default = 50, type = int, help = "integer, the
 args = vars(ap.parse_args())
 
 # Define the main function of the script and what parameters it takes: 
-def main(filename, layers, save, custom, epoch):
+def main(filename, layers, save, custom, epochs):
     
     print("[INFO]: Loading mnist-data")
     
@@ -103,7 +103,7 @@ def main(filename, layers, save, custom, epoch):
     print("[INFO]: Fitting neural network")
     
     # Fit the network to the training data with the specified amount of epochs:
-    nn.fit(X_train_scaled, y_train, epochs=epoch)
+    nn.fit(X_train_scaled, y_train, epochs=epochs)
     
     print("[INFO]: Predicting test data")
     
@@ -177,4 +177,4 @@ if __name__ =="__main__":
     args["layers"],
     args["save"],
     args["custom"],
-    args["epoch"])
+    args["epochs"])
