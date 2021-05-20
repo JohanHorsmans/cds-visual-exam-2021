@@ -86,7 +86,16 @@ cd {root directory (i.e. cds-visual-exam-2021}
 cd assignment_5
 python3 cnn-artists.py
 ```
-Type: ```python3 cnn-artists.py -h``` for a detailed guide on how to specify script-parameters. 
+__You can specify the following optional argument from the terminal:__
+
+_Epochs:_
+```bash
+"-e", "--epochs" 
+default = 10
+type = int
+help = "integer, the amount of epochs you wish to run when training the model.
+```
+You can also type: ```python3 cnn-artists.py -h``` for a detailed guide on how to specify script-parameters. 
 
 <!-- REPOSITORY STRUCTURE AND CONTENTS -->
 ## Repository structure and contents
